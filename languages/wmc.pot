@@ -1,0 +1,1349 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Multilevel Referral Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-14 13:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+#: views/admin/advSettings.php:129
+msgid " and the global credit/commission percentage is set to "
+msgstr ""
+
+#: views/front/share_referral_link.php:23
+msgid " I've read and agree to the referral program"
+msgstr ""
+
+#: views/admin/email_templates.php:69
+msgid " Notification E-mail Heading"
+msgstr ""
+
+#: views/admin/email_templates.php:65
+msgid " Notification E-mail Subject"
+msgstr ""
+
+#: views/front/register_form_end_fields.php:39
+msgid " Terms and conditions."
+msgstr ""
+
+#: views/admin/advSettings.php:113
+msgid ""
+" then, referrals of each level will receive commission/credits as summarised "
+"below:"
+msgstr ""
+
+#: views/admin/advSettings.php:129
+msgid "% then, the total commission/credit on this product would sum up to "
+msgstr ""
+
+#: classes/referral-users.php:1246 views/front/myaccount.php:131
+#, php-format
+msgid "%s Store credit is earned from order %s."
+msgstr ""
+
+#: classes/referral-users.php:1249 views/front/myaccount.php:137
+#, php-format
+msgid "%s Store credit is earned through referral user ( %s order %s )  "
+msgstr ""
+
+#: classes/referral-users.php:1260 views/front/myaccount.php:161
+#, php-format
+msgid "%s Store credit is expired."
+msgstr ""
+
+#: classes/referral-users.php:1244 classes/referral-users.php:1255
+#: views/front/myaccount.php:127 views/front/myaccount.php:151
+#, php-format
+msgid "%s Store credit is refund for order %s."
+msgstr ""
+
+#: classes/referral-users.php:1258 views/front/myaccount.php:157
+#, php-format
+msgid "%s Store credit is used in order %s."
+msgstr ""
+
+#: views/front/register_form_end_fields.php:81 views/front/join-form.php:11
+msgid "&nbsp;"
+msgstr ""
+
+#: views/front/share_referral_link.php:3 views/front/share_referral_link.php:14
+#: views/front/share_referral_link.php:23
+msgid "(optional)"
+msgstr ""
+
+#: classes/referral-users.php:1430
+msgid ")</strong> exist."
+msgstr ""
+
+#: classes/referral-users.php:1443
+msgid ")</strong> is already exist."
+msgstr ""
+
+#: views/admin/advSettings.php:129
+msgid ""
+". Referrals on each levels will receive the commission/credits as summarised "
+"below"
+msgstr ""
+
+#: classes/admin/settings-general.php:181
+msgid ""
+"1. All Users : All users including the existing ones will be presented with "
+"Welcome Credits on their first purchase."
+msgstr ""
+
+#: classes/admin/settings-general.php:583
+#: classes/admin/settings-general.php:615
+msgid ""
+"1. The defined credit points will be deposited in affiliate users account, "
+"when user purchase this product."
+msgstr ""
+
+#: classes/admin/settings-general.php:151
+msgid ""
+"1. The defined credit points will be deposited in affiliate users account."
+msgstr ""
+
+#: classes/admin/settings-general.php:173
+msgid ""
+"1. The selected number of levels referrers are entitled to receive credit "
+"points."
+msgstr ""
+
+#: classes/admin/settings-general.php:583
+#: classes/admin/settings-general.php:615
+msgid "2. For more information about \"How credit system works?\" visit"
+msgstr ""
+
+#: classes/admin/settings-general.php:151
+msgid ""
+"2. For more information about \"How credit system works?\" visit <a "
+"href=\"http://referral.staging.prismitsystems.com/docs/\" target=\"_blank\">"
+"here</a>"
+msgstr ""
+
+#: classes/admin/settings-general.php:181
+msgid ""
+"2. New Users : Only the newly registered users will be presented with "
+"Welcome Credits on their first purchase. Existing users are not entitled for "
+"this benefit."
+msgstr ""
+
+#: classes/admin/settings-general.php:173
+msgid "2. This setting is only applicable for Recursive Credit System."
+msgstr ""
+
+#: classes/admin/settings-general.php:181
+msgid ""
+"3. Skip : This option will skip welcome credit for all customers. So "
+"customers will not receive welcome credit on their first purchase."
+msgstr ""
+
+#: classes/referral-users.php:498
+msgid "<strong>Do you have Referral code?</strong> is required field."
+msgstr ""
+
+#: classes/referral-users.php:486
+msgid "<strong>The Referral code</strong> is required field."
+msgstr ""
+
+#: views/admin/addons.php:43
+msgid "Activate"
+msgstr ""
+
+#: views/admin/addons.php:58
+msgid "Activated"
+msgstr ""
+
+#: classes/admin/table-users.php:809
+msgid "Add back to referrals"
+msgstr ""
+
+#: views/admin/advSettings.php:188
+msgid "Add Level"
+msgstr ""
+
+#: views/front/register_form_end_fields.php:33
+msgid "Add referral code if you have"
+msgstr ""
+
+#: views/admin/referral-header.php:87
+msgid "Add-Ons"
+msgstr ""
+
+#: views/admin/referral-header.php:85
+msgid "Advance Settings"
+msgstr ""
+
+#: classes/admin/settings-general.php:476
+#: classes/admin/settings-general.php:580
+msgid "Affiliate Credit"
+msgstr ""
+
+#: classes/referral-users.php:1201
+msgid "Affiliates"
+msgstr ""
+
+#: classes/referral-users.php:1125
+msgid "Affiliates : "
+msgstr ""
+
+#: classes/referral-users.php:1119 classes/referral-users.php:1201
+msgid "Affiliates Credit"
+msgstr ""
+
+#: classes/referral-users.php:1108
+msgid "All"
+msgstr ""
+
+#: classes/woocommerce-multilevel-referral.php:503
+msgid "All Banners"
+msgstr ""
+
+#: classes/admin/settings-general.php:189
+msgid "All Users"
+msgstr ""
+
+#: classes/admin/table-withdraw_history.php:109
+msgid "Amount"
+msgstr ""
+
+#: classes/admin/table-users.php:149 views/admin/withdraw_history.php:41
+#: views/front/store-credits-notice.php:15
+msgid "Apply"
+msgstr ""
+
+#: classes/referral-users.php:1116
+msgid "Asc"
+msgstr ""
+
+#: views/admin/users.php:55
+msgid "Auto generated referral code for referral users"
+msgstr ""
+
+#: classes/admin/settings-general.php:312
+msgid "Auto Join"
+msgstr ""
+
+#: classes/referral-users.php:716
+msgid "Banner Description"
+msgstr ""
+
+#: classes/referral-users.php:716
+msgid "Banner Title"
+msgstr ""
+
+#: views/admin/referral-header.php:81
+msgid "Banners"
+msgstr ""
+
+#: classes/admin/settings-general.php:168
+msgid "Binary"
+msgstr ""
+
+#: views/admin/advSettings.php:160
+msgid "Bonus for Customer with Ref-link"
+msgstr ""
+
+#: views/admin/advSettings.php:163
+msgid "Bonus for Customer without Ref-link"
+msgstr ""
+
+#: views/admin/addons.php:63
+msgid "Buy Now"
+msgstr ""
+
+#: views/front/register_form_end_fields.php:39
+msgid "By registering here, you agree to the"
+msgstr ""
+
+#: classes/admin/table-users.php:789 classes/admin/table-users.php:803
+msgid "Calculating Referral Count"
+msgstr ""
+
+#: classes/admin/settings-general.php:325
+msgid "Category Credit Preference"
+msgstr ""
+
+#: classes/woocommerce-order.php:100
+msgid "Code"
+msgstr ""
+
+#: views/admin/advSettings.php:128
+msgid "Commission/Credit"
+msgstr ""
+
+#: classes/referral-users.php:567
+msgid "Copied"
+msgstr ""
+
+#: classes/referral-users.php:567
+msgid "Copy your Referral Link."
+msgstr ""
+
+#: classes/referral-users.php:1123
+msgid ""
+"Could not find any affiliate users. Please invite more friends and "
+"colleagues to start earning credit points."
+msgstr ""
+
+#: views/admin/advSettings.php:97
+msgid "Credit / Commission Earning Method options"
+msgstr ""
+
+#: views/admin/credit_logs.php:3
+msgid "Credit logs"
+msgstr ""
+
+#: classes/referral-users.php:1229
+msgid "Credit Points Log"
+msgstr ""
+
+#: classes/admin/settings-general.php:203
+msgid "Credit validity by period"
+msgstr ""
+
+#: classes/referral-users.php:716
+msgid "Custom Banner Description"
+msgstr ""
+
+#: classes/referral-users.php:716
+msgid "Custom Banner Title"
+msgstr ""
+
+#: classes/admin/settings-general.php:628 views/admin/advSettings.php:114
+#: views/admin/advSettings.php:131 views/admin/advSettings.php:152
+msgid "Customer"
+msgstr ""
+
+#: classes/admin/settings-general.php:457
+#: classes/admin/settings-general.php:495
+msgid "Customer "
+msgstr ""
+
+#: views/admin/advSettings.php:146
+msgid "Customer Based Bonus Offers"
+msgstr ""
+
+#: classes/admin/table-orderwise_credits.php:152
+msgid "Customer Name"
+msgstr ""
+
+#: classes/referral-users.php:1234 views/front/myaccount.php:101
+msgid "Date"
+msgstr ""
+
+#: classes/admin/table-withdraw_history.php:111
+msgid "date"
+msgstr ""
+
+#: classes/admin/table-users.php:143 views/admin/withdraw_history.php:35
+msgid "Date Range"
+msgstr ""
+
+#: classes/admin/table-users.php:228
+msgid "Deactive Date"
+msgstr ""
+
+#: views/admin/advSettings.php:191 views/admin/advSettings.php:193
+msgid "Delete Last Level"
+msgstr ""
+
+#: classes/admin/table-users.php:155
+msgid "Deleted Referrals"
+msgstr ""
+
+#: views/admin/addons.php:64
+msgid "Demo"
+msgstr ""
+
+#: classes/referral-users.php:1116
+msgid "Desc"
+msgstr ""
+
+#: views/admin/advSettings.php:59
+msgid "Disable"
+msgstr ""
+
+#: views/admin/advSettings.php:72
+msgid "Disable level based credit system."
+msgstr ""
+
+#: classes/admin/settings-general.php:489
+msgid "Distribution of commission/credit for each level"
+msgstr ""
+
+#: classes/admin/settings-general.php:621
+msgid "Distribution of commission/Credit for each level."
+msgstr ""
+
+#: classes/admin/settings-general.php:453
+msgid "Distribution of commission/credit for each level."
+msgstr ""
+
+#: classes/referral-users.php:444
+msgid "Do you have Referral code?"
+msgstr ""
+
+#: classes/referral-users.php:435
+msgid "Do you want to join Referral Program?"
+msgstr ""
+
+#: classes/referral-users.php:1423
+msgid "E-mail address is invalid"
+msgstr ""
+
+#: classes/referral-users.php:1336
+msgid "E-mail address is invalid."
+msgstr ""
+
+#: views/admin/advSettings.php:113 views/admin/advSettings.php:129
+msgid "e.g. Suppose Product \"A\" is priced at "
+msgstr ""
+
+#: classes/admin/table-credit_logs.php:70 views/admin/referral-header.php:45
+msgid "Earned Credits"
+msgstr ""
+
+#: classes/admin/table-users.php:202
+msgid "Email"
+msgstr ""
+
+#: views/admin/referral-header.php:79 views/admin/email_templates.php:3
+msgid "Email templates"
+msgstr ""
+
+#: views/admin/advSettings.php:59
+msgid "Enable"
+msgstr ""
+
+#: views/admin/advSettings.php:77
+msgid "Enable level based credit system."
+msgstr ""
+
+#: classes/admin/settings-general.php:445
+#: classes/admin/settings-general.php:480
+msgid ""
+"Enter a credit percentage, this percentage will apply for all the products "
+"in this category"
+msgstr ""
+
+#: classes/admin/settings-general.php:447
+#: classes/admin/settings-general.php:482
+msgid ""
+"Enter a credit value, this value will apply for all the products in this "
+"category"
+msgstr ""
+
+#: classes/admin/settings-general.php:125
+msgid "Enter Purchase Code."
+msgstr ""
+
+#: classes/referral-users.php:415
+msgid "Enter referral code"
+msgstr ""
+
+#: classes/referral-users.php:429
+msgid "Enter referral code if you have one"
+msgstr ""
+
+#: classes/referral-users.php:1348 classes/referral-users.php:1395
+#: classes/woocommerce-order.php:139 classes/woocommerce-order.php:266
+#: classes/woocommerce-order.php:428 classes/woocommerce-order.php:726
+#: classes/woocommerce-order.php:788
+msgid "Error"
+msgstr ""
+
+#: classes/admin/metabox-product.php:63
+msgid "Exclude Product from Credit"
+msgstr ""
+
+#: classes/admin/settings-general.php:272
+#: classes/admin/settings-general.php:280
+msgid "Exclude products"
+msgstr ""
+
+#: views/admin/email_templates.php:33
+msgid "Expire credit notification"
+msgstr ""
+
+#: views/admin/email_templates.php:68
+msgid "Expire Notification E-mail Heading"
+msgstr ""
+
+#: views/admin/email_templates.php:64
+msgid "Expire Notification E-mail Subject"
+msgstr ""
+
+#: classes/referral-users.php:1107
+msgid "Filter by"
+msgstr ""
+
+#: views/admin/referral-code-filter.php:1
+msgid "Filter by referral code"
+msgstr ""
+
+#: views/front/register_form_start_fields.php:3
+msgid "First name"
+msgstr ""
+
+#: classes/admin/settings-general.php:145
+msgid "Fixed"
+msgstr ""
+
+#: classes/admin/settings-general.php:442
+#: classes/admin/settings-general.php:610
+msgid "Global Credit"
+msgstr ""
+
+#: classes/admin/settings-general.php:150
+msgid "Global Store Credit"
+msgstr ""
+
+#: classes/admin/settings-general.php:583
+#: classes/admin/settings-general.php:615
+msgid "here"
+msgstr ""
+
+#: classes/admin/table-users.php:214
+msgid "Hierarchy"
+msgstr ""
+
+#: classes/admin/settings-general.php:334
+msgid "Highest"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://referral.staging.prismitsystems.com/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.prismitsystems.com"
+msgstr ""
+
+#: views/front/register_form_end_fields.php:53
+msgid "I don't have referral code but i wish to join referral program."
+msgstr ""
+
+#: classes/referral-users.php:409 views/front/share_referral_link.php:8
+#: views/front/join-form.php:6
+msgid ""
+"I don't have referral code or I lost it. But I wish to join referral program."
+msgstr ""
+
+#: classes/referral-users.php:408 views/front/register_form_end_fields.php:51
+#: views/front/share_referral_link.php:7 views/front/join-form.php:5
+msgid "I have the referral code and want to join referral program."
+msgstr ""
+
+#: classes/referral-users.php:466 views/front/register_form_end_fields.php:61
+#: views/front/join-form.php:18
+msgid "I've read and agree to the referral program"
+msgstr ""
+
+#: classes/admin/settings-general.php:195
+msgid ""
+"If Welcome credit is enable for users, then these percentage will be used."
+msgstr ""
+
+#: views/admin/addons.php:3
+msgid "Implementing Inputs with Add-Ons for an ever evolving experience"
+msgstr ""
+
+#: classes/admin/settings-general.php:326
+msgid ""
+"In case of multiple category selected for product, this setting will decide "
+"which credit percentage should be used. If \"Highest\" selected then highest "
+"percentage between all the categories will be considered, if \"Lowest\" "
+"selected lowest percentage will be considered"
+msgstr ""
+
+#: classes/admin/settings-general.php:287
+#: classes/admin/settings-general.php:295
+msgid "Include products"
+msgstr ""
+
+#: views/admin/advSettings.php:93
+msgid ""
+"Input \"0 (ZERO)\" for no limitations, 2 for Binary and 3 for turnary Tree"
+msgstr ""
+
+#: classes/admin/settings-general.php:782
+msgid "Invalid Purchase code"
+msgstr ""
+
+#: classes/woocommerce-multilevel-referral.php:349
+msgid "Invalid Request"
+msgstr ""
+
+#: views/admin/email_templates.php:33
+msgid "Invitation mail for Referral users"
+msgstr ""
+
+#: classes/referral-users.php:608
+msgid "Invite"
+msgstr ""
+
+#: classes/referral-users.php:596 views/front/myaccount.php:13
+msgid "Invite Friends"
+msgstr ""
+
+#: classes/referral-users.php:599 views/front/myaccount.php:19
+msgid "Invite your friends"
+msgstr ""
+
+#: views/admin/referral-users.php:23
+msgid "is successfully activated"
+msgstr ""
+
+#: views/front/join-form.php:23
+msgid "Join"
+msgstr ""
+
+#: classes/referral-users.php:1119 classes/referral-users.php:1201
+#: classes/admin/table-users.php:208 views/admin/users.php:21
+msgid "Join Date"
+msgstr ""
+
+#: views/front/share_referral_link.php:3 views/front/join-form.php:2
+msgid "Join Referral Program"
+msgstr ""
+
+#: views/admin/users.php:27
+msgid "Joining date of referral user"
+msgstr ""
+
+#: views/admin/email_templates.php:33
+msgid "Joining mail for referral program"
+msgstr ""
+
+#: views/admin/email_templates.php:44 views/admin/email_templates.php:45
+msgid "Joining mail Heading"
+msgstr ""
+
+#: views/admin/email_templates.php:40 views/admin/email_templates.php:41
+msgid "Joining mail Subject"
+msgstr ""
+
+#: views/front/register_form_start_fields.php:13
+msgid "Last name"
+msgstr ""
+
+#: views/admin/advSettings.php:54
+msgid "Level based credit system"
+msgstr ""
+
+#: views/admin/addons.php:53
+msgid "Licence Key"
+msgstr ""
+
+#: classes/admin/table-users.php:789 classes/admin/table-users.php:803
+msgid "Loader Image"
+msgstr ""
+
+#: classes/referral-users.php:799
+msgid "Login / Register"
+msgstr ""
+
+#: classes/admin/settings-general.php:333
+msgid "Lowest"
+msgstr ""
+
+#: classes/admin/settings-general.php:256
+msgid "Max Redemption (%)"
+msgstr ""
+
+#: views/admin/advSettings.php:83
+msgid "Maximum number of levels"
+msgstr ""
+
+#: views/admin/advSettings.php:90
+msgid "Maximum number of referrals on each level"
+msgstr ""
+
+#: classes/admin/table-withdraw_history.php:105
+msgid "Merchant Order id"
+msgstr ""
+
+#: classes/admin/table-withdraw_history.php:115
+msgid "Message"
+msgstr ""
+
+#: classes/admin/table-withdraw_history.php:103
+msgid "Mobile Number"
+msgstr ""
+
+#: classes/admin/settings-general.php:221
+msgid "Month"
+msgstr ""
+
+#: classes/admin/settings-general.php:236
+msgid "Monthly max credit limit"
+msgstr ""
+
+#: classes/admin/settings-general.php:566
+msgid "Multilevel Referral"
+msgstr ""
+
+#: classes/admin/settings-general.php:576
+#: classes/admin/settings-general.php:605
+msgid "Multilevel Referral Plugin Settings"
+msgstr ""
+
+#: classes/referral-users.php:1106 classes/referral-users.php:1588
+#: classes/referral-users.php:1592
+msgid "My Affiliates"
+msgstr ""
+
+#: classes/referral-users.php:1119 classes/referral-users.php:1201
+#: classes/admin/table-users.php:200
+#: classes/admin/table-withdraw_history.php:101
+#: classes/admin/table-credit_logs.php:69
+msgid "Name"
+msgstr ""
+
+#: classes/admin/settings-general.php:190
+msgid "New Users"
+msgstr ""
+
+#: classes/referral-users.php:439 classes/referral-users.php:448
+#: classes/admin/settings-general.php:320
+msgid "No"
+msgstr ""
+
+#: classes/admin/table-orderwise_credits.php:75
+#: classes/admin/table-credit_logs.php:36
+msgid "No orders avaliable."
+msgstr ""
+
+#: classes/referral-users.php:1274 classes/admin/table-withdraw_history.php:551
+msgid "No records found."
+msgstr ""
+
+#: classes/admin/table-users.php:71
+msgid "No users found, dude."
+msgstr ""
+
+#: classes/referral-users.php:410 views/front/register_form_end_fields.php:55
+#: views/front/share_referral_link.php:9
+msgid "No, I don't want to be a part of referral program at this time."
+msgstr ""
+
+#: classes/referral-users.php:1235 views/front/myaccount.php:103
+msgid "Note"
+msgstr ""
+
+#: classes/admin/settings-general.php:227
+msgid "Notification Mail Time"
+msgstr ""
+
+#: classes/referral-users.php:1233 classes/admin/table-orderwise_credits.php:51
+#: classes/admin/table-orderwise_credits.php:150
+#: classes/admin/table-credit_logs.php:25
+#: classes/admin/table-credit_logs.php:68 views/front/myaccount.php:99
+msgid "Order"
+msgstr ""
+
+#: classes/admin/table-orderwise_credits.php:53
+#: classes/admin/table-credit_logs.php:26
+msgid "Orders"
+msgstr ""
+
+#: views/admin/orderwise_credits.php:3
+msgid "Orderwise credits"
+msgstr ""
+
+#: views/admin/referral-header.php:73
+msgid "Orderwise user credits"
+msgstr ""
+
+#: classes/admin/table-withdraw_history.php:117
+msgid "Payment Method"
+msgstr ""
+
+#: classes/admin/settings-general.php:144
+msgid "Percentage"
+msgstr ""
+
+#: classes/referral-users.php:723
+msgid "Pin It"
+msgstr ""
+
+#: classes/referral-users.php:490 classes/referral-users.php:495
+msgid ""
+"Please accept <strong>terms and conditions</strong> to join referral program."
+msgstr ""
+
+#: classes/referral-users.php:1448
+msgid "Please accept referral Program terms and conditions"
+msgstr ""
+
+#: classes/referral-users.php:1298
+msgid "Please enter a valid E-mail address."
+msgstr ""
+
+#: classes/referral-users.php:1411
+msgid "Please enter the First name."
+msgstr ""
+
+#: classes/referral-users.php:1414
+msgid "Please enter the Last name."
+msgstr ""
+
+#: classes/referral-users.php:539
+msgid "Please join our Referral Program to access this page."
+msgstr ""
+
+#: classes/woocommerce-order.php:132
+msgid ""
+"Please make sure that amount should be equal or less than the maximum limit."
+msgstr ""
+
+#: views/admin/referral-header.php:75
+msgid "Point logs"
+msgstr ""
+
+#. Author of the plugin
+msgid "Prism I.T. Systems"
+msgstr ""
+
+#: views/admin/advSettings.php:112
+msgid "Product Price."
+msgstr ""
+
+#: classes/admin/settings-general.php:124
+msgid "Purchase Code"
+msgstr ""
+
+#: views/admin/addons.php:4
+msgid ""
+"Recognising various popular requests, we steadily aim for new advancements "
+"at your disposal"
+msgstr ""
+
+#: views/front/store-credits-notice.php:5
+msgid "Redeem now."
+msgstr ""
+
+#: classes/admin/table-credit_logs.php:71 views/admin/referral-header.php:59
+msgid "Redeemed Credits"
+msgstr ""
+
+#: classes/referral-users.php:1587 classes/referral-users.php:1591
+#: classes/admin/referral.php:94 classes/admin/referral.php:94
+#: classes/admin/settings-general.php:78 classes/admin/settings-general.php:590
+msgid "Referral"
+msgstr ""
+
+#: classes/referral-users.php:414 classes/referral-users.php:565
+#: classes/referral-users.php:1119 classes/referral-users.php:1201
+#: classes/admin/table-users.php:206
+#: views/front/myaccount-referral_amounts.php:45
+#: views/front/register_form_end_fields.php:31
+#: views/front/register_form_end_fields.php:77
+#: views/front/share_referral_link.php:14 views/front/join-form.php:9
+#: views/front/myaccount-referral.php:26
+msgid "Referral Code"
+msgstr ""
+
+#: views/admin/users.php:49
+msgid "Referral code"
+msgstr ""
+
+#: classes/referral-users.php:656 classes/referral-users.php:746
+#: classes/referral-users.php:905 classes/referral-users.php:1009
+msgid "Referral Code : "
+msgstr ""
+
+#: views/admin/users.php:35
+msgid "Referral Discount"
+msgstr ""
+
+#: classes/admin/settings-general.php:135
+msgid "Referral Options"
+msgstr ""
+
+#: views/front/myaccount.php:63
+msgid "Referral Program Details"
+msgstr ""
+
+#: views/admin/users.php:11
+msgid "Referral Program Statistics"
+msgstr ""
+
+#: classes/referral-mail.php:117 classes/referral-mail.php:144
+#: classes/woocommerce-multilevel-referral.php:178
+#: classes/woocommerce-multilevel-referral.php:179
+#: classes/woocommerce-multilevel-referral.php:181
+#: classes/woocommerce-multilevel-referral.php:182
+#: classes/woocommerce-multilevel-referral.php:184
+#: classes/woocommerce-multilevel-referral.php:185
+#: views/admin/email_templates.php:7 views/admin/email_templates.php:9
+#: views/admin/email_templates.php:13 views/admin/email_templates.php:15
+#: views/admin/email_templates.php:19 views/admin/email_templates.php:21
+msgid "Referral Program Team"
+msgstr ""
+
+#: classes/admin/settings-general.php:159
+msgid "Referral Type"
+msgstr ""
+
+#: views/admin/email_templates.php:56 views/admin/email_templates.php:57
+msgid "Referral User E-mail Heading"
+msgstr ""
+
+#: views/admin/email_templates.php:52 views/admin/email_templates.php:53
+msgid "Referral User E-mail Subject"
+msgstr ""
+
+#: views/admin/referral-users.php:3 views/admin/referral-header.php:71
+#: views/admin/referral-header.php:71
+msgid "Referral users"
+msgstr ""
+
+#: classes/referral-users.php:1119 views/admin/referral-header.php:31
+msgid "Referrals"
+msgstr ""
+
+#: classes/admin/table-users.php:204
+msgid "Referrer"
+msgstr ""
+
+#: views/admin/advSettings.php:120 views/admin/advSettings.php:137
+msgid "Referrer Level"
+msgstr ""
+
+#: classes/admin/settings-general.php:459
+#: classes/admin/settings-general.php:506
+#: classes/admin/settings-general.php:638
+msgid "Referrer Level "
+msgstr ""
+
+#: views/admin/advSettings.php:180
+msgid "Referrer Level - "
+msgstr ""
+
+#: classes/admin/settings-general.php:167
+msgid "Regular"
+msgstr ""
+
+#: classes/admin/settings-general.php:165
+msgid ""
+"Regular MLM supports n level child where Binary MLM type only allows two "
+"child."
+msgstr ""
+
+#: classes/woocommerce-order.php:957
+msgid "Remove"
+msgstr ""
+
+#: classes/admin/table-users.php:151 views/admin/withdraw_history.php:43
+msgid "Reset"
+msgstr ""
+
+#: views/admin/advSettings.php:188
+msgid "Save changes"
+msgstr ""
+
+#: views/admin/email_templates.php:48 views/admin/email_templates.php:60
+#: views/admin/email_templates.php:72
+msgid "Save template"
+msgstr ""
+
+#: classes/admin/table-users.php:141
+msgid "Search By Email"
+msgstr ""
+
+#: views/admin/withdraw_history.php:33
+msgid "Search By Mobile Number"
+msgstr ""
+
+#: classes/admin/table-users.php:139 views/admin/withdraw_history.php:31
+msgid "Search By Name"
+msgstr ""
+
+#: classes/admin/settings-general.php:313
+msgid ""
+"Select \"Yes\" if you want to register users automatically to referral "
+"program"
+msgstr ""
+
+#: classes/referral-users.php:665
+msgid ""
+"Select a banner, write a title and a description, then click the icon of the "
+"social media you want to share on."
+msgstr ""
+
+#: classes/admin/settings-general.php:220
+msgid "Select expiry"
+msgstr ""
+
+#: classes/admin/settings-general.php:172
+msgid "Select Number of levels to distribute credit points."
+msgstr ""
+
+#: classes/admin/settings-general.php:114
+msgid "Select Page"
+msgstr ""
+
+#: classes/admin/settings-general.php:273
+msgid ""
+"Select the product which you want to be exclude from this referral program"
+msgstr ""
+
+#: classes/admin/settings-general.php:288
+msgid ""
+"Select the product which you want to be include for this referral program"
+msgstr ""
+
+#: classes/admin/settings-general.php:303
+msgid "Select the terms and condition page"
+msgstr ""
+
+#: classes/referral-users.php:600
+msgid ""
+"Send an Invitation to your friend by adding his/her e-mail address. (If you "
+"want to invite sevaral at the same time, just add a comma in between.)"
+msgstr ""
+
+#: views/front/myaccount.php:49
+msgid "Send Invitations"
+msgstr ""
+
+#: classes/referral-users.php:720
+msgid "Share on Facebook"
+msgstr ""
+
+#: classes/referral-users.php:721
+msgid "Share on Google+"
+msgstr ""
+
+#: classes/referral-users.php:722
+msgid "Share on Linkedin"
+msgstr ""
+
+#: classes/referral-users.php:664
+msgid "Share on Social Media"
+msgstr ""
+
+#: classes/referral-users.php:724
+msgid "Share on Twitter"
+msgstr ""
+
+#: classes/referral-users.php:725
+msgid "Share on What's up"
+msgstr ""
+
+#: classes/referral-users.php:1119 classes/referral-users.php:1197
+#: classes/referral-users.php:1199
+msgid "Show/Hide"
+msgstr ""
+
+#: classes/admin/settings-general.php:188
+msgid "Skip"
+msgstr ""
+
+#: classes/woocommerce-multilevel-referral.php:309
+msgid "Something went wrong! Try again later!"
+msgstr ""
+
+#: classes/admin/settings-general.php:338
+msgid "Start Referral Program after First Order"
+msgstr ""
+
+#: classes/admin/table-withdraw_history.php:113
+msgid "Status"
+msgstr ""
+
+#: views/admin/users.php:41
+msgid "Status of referral user for discount that taken or not?"
+msgstr ""
+
+#: classes/woocommerce-order.php:834
+msgid "Store Credit"
+msgstr ""
+
+#: views/front/myaccount.php:71
+msgid "Store Credits"
+msgstr ""
+
+#: classes/woocommerce-order.php:914
+msgid "Store credits is removed becuase of cart total is same as discount."
+msgstr ""
+
+#: classes/woocommerce-order.php:136
+msgid "Store credits successfully applied"
+msgstr ""
+
+#: views/front/register_form_end_fields.php:63
+msgid "terms & conditions"
+msgstr ""
+
+#: classes/referral-users.php:466 views/front/share_referral_link.php:23
+#: views/front/join-form.php:19
+msgid "terms and conditions"
+msgstr ""
+
+#: classes/admin/settings-general.php:302
+msgid "Terms And Conditions Page"
+msgstr ""
+
+#: classes/referral-users.php:1391
+msgid "Thanks for joining the referral program"
+msgstr ""
+
+#: classes/admin/settings-general.php:782
+msgid "The code has been validated"
+msgstr ""
+
+#: classes/admin/settings-general.php:237
+msgid ""
+"The credit points will not be credited more than defined limit in the period "
+"of one month"
+msgstr ""
+
+#: views/admin/advSettings.php:55
+msgid ""
+"The level based credit percentage will be applied on product price for each "
+"level affiliate users."
+msgstr ""
+
+#: classes/referral-users.php:1332
+msgid ""
+"The user is already part of our referral program, please try with different "
+"E-mail address."
+msgstr ""
+
+#. Description of the plugin
+msgid "The WooCommerce Multilevel Plugin is a WooCommerce Add-On Plugin."
+msgstr ""
+
+#: classes/woocommerce-multilevel-referral.php:422
+msgid "This is the promotional banner"
+msgstr ""
+
+#: views/admin/advSettings.php:129
+msgid ""
+"This method is more lucid and is widely used and supported. Here The "
+"Referral Plugin will first calculate the commission/credit in accordance to "
+"the globally set percentage, and, that percentage will then be used to "
+"calculate the commission/credit for each of the levels."
+msgstr ""
+
+#: classes/referral-users.php:1125
+msgid ""
+"This particular column shows the number of Affiliates for the corresponding "
+"affiliate member."
+msgstr ""
+
+#: classes/admin/settings-general.php:228
+msgid ""
+"This sets the number of days for send notification mail for expire credits."
+msgstr ""
+
+#: classes/admin/settings-general.php:204
+msgid "This sets the number of months/years for expire credits."
+msgstr ""
+
+#: classes/admin/table-users.php:212
+msgid "Total Credits"
+msgstr ""
+
+#: classes/referral-users.php:571 views/front/myaccount-referral_amounts.php:21
+#: views/front/myaccount-referral_amounts.php:55
+#: views/front/myaccount-referral.php:13 views/front/myaccount-referral.php:31
+msgid "Total Credits Available"
+msgstr ""
+
+#: classes/admin/table-orderwise_credits.php:154
+msgid "Total Credits from this Order"
+msgstr ""
+
+#: views/front/myaccount.php:73
+msgid "Total Followers"
+msgstr ""
+
+#: classes/referral-users.php:576 classes/admin/table-users.php:210
+#: views/front/myaccount-referral_amounts.php:65
+#: views/front/myaccount-referral.php:36
+msgid "Total Referrals"
+msgstr ""
+
+#: views/admin/referral-header.php:17
+msgid "Total Users"
+msgstr ""
+
+#: classes/referral-users.php:1228
+msgid "Total volume of Referees"
+msgstr ""
+
+#: classes/admin/table-withdraw_history.php:107
+msgid "Transaction id"
+msgstr ""
+
+#: classes/admin/settings-general.php:137
+msgid "Type of Commission"
+msgstr ""
+
+#: classes/admin/table-users.php:27
+msgid "User"
+msgstr ""
+
+#: classes/admin/table-users.php:29
+msgid "Users"
+msgstr ""
+
+#: views/admin/addons.php:55
+msgid "Verify"
+msgstr ""
+
+#: classes/referral-users.php:1197
+msgid "View Hirarchy"
+msgstr ""
+
+#: classes/referral-users.php:1341
+msgid "We can not send invitation to below listed E-mail addresses."
+msgstr ""
+
+#: classes/admin/settings-general.php:194
+msgid "Welcome Credit"
+msgstr ""
+
+#: classes/admin/settings-general.php:180
+msgid "Welcome Credit for"
+msgstr ""
+
+#: views/admin/advSettings.php:113
+msgid ""
+"With this method, The Referral Plugin will make use of the direct product "
+"price to calculate commission for each level."
+msgstr ""
+
+#: views/admin/referral-header.php:77
+msgid "Withdraw History"
+msgstr ""
+
+#: views/admin/withdraw_history.php:3
+msgid "Withdrawn History"
+msgstr ""
+
+#. Name of the plugin
+#: views/admin/referral-header.php:3
+msgid "WooCommerce Multilevel Referral Plugin"
+msgstr ""
+
+#: classes/admin/settings-general.php:222
+msgid "Year"
+msgstr ""
+
+#: classes/referral-users.php:438 classes/referral-users.php:447
+#: classes/admin/settings-general.php:321
+msgid "Yes"
+msgstr ""
+
+#: classes/admin/settings-general.php:257
+msgid ""
+"You can define the limit for redemption. If you set 50% then user can not be "
+"redeem points more than 50% of product price."
+msgstr ""
+
+#: views/front/myaccount.php:33
+msgid ""
+"You can earn more credits by inviting more people to join this referral "
+"program. You can add comma separated list of emails below ..."
+msgstr ""
+
+#: classes/woocommerce-order.php:807
+#, php-format
+msgid "You can not use Store credit in following products: %s"
+msgstr ""
+
+#: classes/admin/table-orderwise_credits.php:320
+#: classes/admin/table-credit_logs.php:181
+msgid "You can search by Customer name, Order ID and Referral code"
+msgstr ""
+
+#: views/admin/email_templates.php:59
+msgid ""
+"You can use [referral_link text=\"Click here\"] to replace respective user "
+"referral link."
+msgstr ""
+
+#: views/front/store-credits-notice.php:17
+#, php-format
+msgid "You can use max %s as store credit."
+msgstr ""
+
+#: views/admin/email_templates.php:47 views/admin/email_templates.php:59
+msgid "You can use{first_name}to replace respective user name."
+msgstr ""
+
+#: views/admin/email_templates.php:47 views/admin/email_templates.php:59
+msgid "You can use{last_name}to replace respective user name."
+msgstr ""
+
+#: views/admin/email_templates.php:47 views/admin/email_templates.php:59
+msgid "You can use{referral_code}to replace respective referral code."
+msgstr ""
+
+#: views/front/store-credits-notice.php:3
+#, php-format
+msgid "You have %s store credits."
+msgstr ""
+
+#: classes/woocommerce-order.php:402
+#, php-format
+msgid "You have earned %s store points."
+msgstr ""
+
+#: classes/referral-users.php:1419
+msgid "You must have to add referral code to join referral program."
+msgstr ""
+
+#: classes/referral-users.php:1344
+msgid "Your invitations are sent succesfully!"
+msgstr ""
+
+#: views/front/myaccount.php:69
+msgid "Your Referral Code"
+msgstr ""
+
+#: views/admin/email_templates.php:71
+msgid "{available_credits}- Replace respective user credits."
+msgstr ""
+
+#: views/admin/email_templates.php:71
+msgid "{expire_credits}- Replace respective expired credits."
+msgstr ""
+
+#: views/admin/email_templates.php:71
+msgid "{expire_date}- Replace respective expiry date of user credits."
+msgstr ""
+
+#: views/admin/email_templates.php:71
+msgid "{expire_month}- Replace respective credit expired month."
+msgstr ""
+
+#: views/admin/email_templates.php:71
+msgid "{first_name}- Replace respective user name."
+msgstr ""
+
+#: views/admin/email_templates.php:71
+msgid "{last_name}- Replace respective user name."
+msgstr ""
+
+#: views/admin/email_templates.php:71
+msgid "{today_date}- Replace respective current date."
+msgstr ""
+
+#: views/admin/email_templates.php:71
+msgid "{validity_period}- Replace respective store credit validity."
+msgstr ""

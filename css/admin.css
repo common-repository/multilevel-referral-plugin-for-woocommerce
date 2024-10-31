@@ -1,0 +1,2373 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+ body.toplevel_page_wc_referral {
+     background-color: #F7FBFD;
+     font-family: 'Open Sans', sans-serif;
+}
+ .toplevel_page_wc_referral * {
+    /* margin:0;
+     */
+    /* padding: 0;
+     */
+     box-sizing: border-box;
+}
+div#wmr_general_setting_panel .select2-container {
+    max-width: 400px;
+}
+
+.mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(3) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(4) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(6) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(7) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(8) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(10) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(11) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(12) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(13) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(14) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(16) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(17) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(19) td:after {
+    content: "";
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../images/premium-1.png);
+    background-repeat: no-repeat;
+    left: 0;
+    background-size: auto 15px;
+    background-position: 417px 22px;
+    /* border-bottom: 1px solid #ccc; */
+    top: 0;
+}
+
+.mrapfw_free_plan .wmc_referral_table_shadow.wmc_banner_section .wp-heading-inline + .page-title-action:after {
+    content: "";
+    width: 32px;
+    display: inline-block;
+    height: 35px;
+    background-image: url(../images/premium-1.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 25px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.mrapfw_free_plan .wmc_referral_table_shadow.wmc_banner_section .wp-heading-inline + .page-title-action {
+    position: relative;
+    padding-right: 40px;
+}
+
+
+.mrapfw_free_plan a.advance_setting_link:after, .mrapfw_free_plan a.addons_link:after {
+    background-image: url(../images/premium-1.png);
+    background-position: right;
+    content: "";
+    height: 40px;
+    width: 35px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position: left center;
+    background-size: auto 22px;
+    background-repeat: no-repeat;
+}
+
+.mrapfw_free_plan a.advance_setting_link, .mrapfw_free_plan a.addons_link {
+    position: relative;
+    padding-right: 40px !important;
+}
+
+#wmr_general_setting_panel tr2, #wmr_general_setting_panel td {
+    position: relative;
+}
+
+.mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(4) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(6) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(7) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(10) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(11) td:after, .mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(12) td:after {
+    background-position: 120px 22px;
+}
+
+.mrapfw_free_plan #wmr_general_setting_panel tr:nth-child(19) td:after {
+    background-position: 50px 22px;
+}
+
+li#toplevel_page_wc_referral img {
+    height: 30px;
+    width: auto;
+}
+div#wmr_general_setting_panel .select2-container {
+    max-width: 400px;
+}
+ .wmc-addon-notice p {
+     font-size: 16px;
+     line-height: 1.5;
+}
+ #dialog_referral_user a, #dialog_referral_user a:hover, #dialog_referral_user a:focus{
+     text-decoration: none;
+     outline: none;
+     box-shadow: none;
+     position: relative;
+     color: #333;
+}
+ #dialog_referral_user .remove_referral_user {
+     background: rgba(0, 0, 0, 0) url("../images/close_window.png") no-repeat scroll center bottom;
+     display: inline-block;
+     height: 14px;
+     line-height: 100%;
+     margin-left: 5px;
+     position: relative;
+     text-indent: -9999px !important;
+     transition: none 0s ease 0s ;
+     width: 14px;
+}
+ #dialog_referral_user .remove_referral_user:hover {
+     background-position: center top;
+}
+ #dialog_referral_user li ul{
+     margin-left: 20px;
+     padding-top: 4px;
+}
+ #dialog_referral_user ul {
+     border-left: 1px solid #000;
+     padding-left: 10px;
+     position: relative;
+     list-style: none;
+}
+ #dialog_referral_user ul li::before {
+     background: #000 none repeat scroll 0 0;
+     border: medium none;
+     content: "";
+     height: 1px;
+     margin-left: -12px;
+     margin-top: 10px;
+     position: absolute;
+     width: 10px;
+}
+ #dialog_referral_user ul li {
+     padding-left: 5px;
+     position: relative;
+     list-style-type: disc;
+     list-style-image: url(../images/disc-02.png);
+     list-style-position: outside;
+}
+ #dialog_referral_user ul::after {
+     background: #fff none repeat scroll 0 0;
+     bottom: 0;
+     content: "";
+     height: 3px;
+     left: -5px;
+     position: absolute;
+     width: 10px;
+}
+ #dialog_referral_user ul li:last-child::after {
+     background: #fff none repeat scroll 0 0;
+     bottom: 0;
+     content: "";
+     height: calc(100% - 15px);
+     left: -15px;
+     position: absolute;
+     width: 10px;
+}
+ .toplevel_page_wc_referral .wrap{
+     position: relative;
+     margin-top:0;
+}
+ .toplevel_page_wc_referral .wrap.loading::after, #dialog_referral_user.loading::after {
+     background: rgba(255, 255, 255, 0.5) url("../images/loader.gif") no-repeat scroll center center;
+     content: "";
+     display: block;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+}
+ .wmc_referral_table_shadow .tablenav .actions{
+     margin-bottom: 30px;
+     display: flex!important;
+     float: none;
+     align-items: center;
+     flex-wrap: wrap;
+     padding:0;
+     margin-top: 0!important;
+     padding: 0!important;
+     border: 0!important;
+     box-shadow: none!important;
+}
+ .toplevel_page_wc_referral p.search-box input{
+     margin-bottom: 30px;
+}
+ .toplevel_page_wc_referral p.search-box input, .wmc_referral_table_shadow .tablenav .actions input, .wmc_referral_table_shadow .tablenav .actions select{
+     background-color: #f5f5f5;
+     border: 1px solid #b7b7b7;
+     min-height: 35px;
+     margin-right: 15px;
+     font-size: 14px;
+     color: #777777;
+     font-family: 'Open Sans', sans-serif;
+     max-width: 190px;
+     transition: all 0.5s;
+     border-radius: 4px;
+     vertical-align: baseline;
+     box-shadow:none!important;
+     outline:0!important;
+}
+ .wmc_referral_table_shadow #frm_usercredits .tablenav .actions input[type="text"] {
+     margin-right: 15px;
+}
+ .wmc_referral_table_shadow .tablenav .actions .wmc_search_by_date {
+     width:125px;
+}
+ .wmc_referral_table_shadow .tablenav .actions input[type="text"]:hover, .wmc_referral_table_shadow.tablenav .actions input[type="text"]:focus{
+     background-color: #ebebeb;
+}
+ .wmc_referral_table_shadow .tablenav .actions lable {
+     margin-left: 20px;
+     margin-right: 5px;
+     font-size: 16px;
+     color: #1c1c1c;
+     font-family: 'Open Sans', sans-serif;
+}
+ .toplevel_page_wc_referral p.search-box{
+     float:none;
+}
+ .toplevel_page_wc_referral p.search-box .button, .wmc_referral_table_shadow .tablenav .actions .button{
+     margin: 0 0 0 0px;
+     background-color: #0088cc;
+     font-size: 14px;
+     color: #ffffff;
+     border: 0;
+     text-transform: uppercase;
+     font-weight: 600;
+     padding: 0px 15px 0px 35px;
+     transition:all 0.5s;
+     width:auto;
+}
+ .toplevel_page_wc_referral p.search-box .button:hover, .wmc_referral_table_shadow .tablenav .actions .button:hover{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)!important;
+}
+ .wmc_referral_table_shadow .tablenav .actions #doaction {
+    /* margin-left: auto;
+     */
+}
+ .wmc_referral_table_shadow .tablenav .actions #doaction2, .wmc_referral_table_shadow .tablenav .actions #doaction{
+     background-repeat: no-repeat;
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -70px -31px;
+}
+ .wmc_referral_table_shadow.wmc_banner_section .actions #post-query-submit, .wmc_referral_table_shadow .tablenav .actions #reset_button_wmrcr, .wmc_referral_table_shadow .tablenav .actions #reset_button{
+     background-repeat: no-repeat;
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -70px -2px;
+}
+ .wmc_referral_table_shadow .search-box #search-submit{
+     background-repeat: no-repeat;
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -70px -89px;
+}
+ .toplevel_page_wc_referral p.search-box #search-submit{
+     max-width: inherit;
+}
+#point_logs_id p.search-box #search,
+#otherwise_credits p.search-box #search {
+    margin-bottom: 0;
+}
+#point_logs_id span.description_panel,
+#otherwise_credits span.description_panel {
+    margin: 10px 0 0;
+    display: block;
+}
+ .wmc_referral_table_shadow input.button{
+     min-height:35px;
+     padding:5px 15px;
+     line-height:1;
+     font-size:14px;
+}
+ .wmc_referral_table_shadow #wmc_referral_table_shadow .tablenav .actions #doaction {
+     margin-left:0;
+}
+ .in_active{
+     position: relative;
+}
+ .in_active::after {
+     border-color: red;
+     border-image: none;
+     border-style: solid none;
+     border-width: 1px 0;
+     content: "";
+     display: block;
+     height: 10%;
+     margin-top: 8px;
+     position: absolute;
+     top: 0;
+     width: 100%;
+}
+ .wmc_referral_table_shadow form#referral_user_form .bulkactions {
+     position: relative;
+}
+ form#referral_user_form .in_active_user_panel {
+     position: absolute;
+     float: right;
+     top: 100%;
+     margin-top: 28px;
+}
+ form#referral_user_form .in_active_user_panel .button-secondary{
+     color: #ffffff;
+     border-color: #0088cc;
+     background: #0088cc;
+     padding: 8px 15px 8px 15px;
+     line-height: 1.1;
+     min-height: 35px;
+     font-size: 14px;
+}
+ #wmr_general_setting_panel {
+     background: #fff none repeat scroll 0 0;
+     border: 1px solid #ccc;
+     margin-bottom: 50px;
+     padding: 0 10px;
+}
+ #wmr_general_setting_panel .submit {
+     position: absolute;
+}
+ #wmr_general_setting_panel h3 {
+     background: #9dadbd none repeat scroll 0 0;
+     color: #fff;
+     margin: 0 -10px;
+     padding: 10px;
+}
+ #wmr_general_setting_panel .forminp.forminp-select .set_position{
+     margin-left: 54px;
+     margin-top: -82px;
+}
+ .toplevel_page_wc_referral .wp-list-table {
+     border: 1px solid #e2e2e2;
+     border-radius: 10px;
+     overflow: hidden;
+}
+ .toplevel_page_wc_referral thead tr, .toplevel_page_wc_referral tfoot tr {
+     background: #ebebeb none repeat scroll 0 0;
+}
+ .toplevel_page_wc_referral thead tr th, .toplevel_page_wc_referral tfoot tr th, .toplevel_page_wc_referral thead tr a, .toplevel_page_wc_referral tfoot tr a {
+     color: #363636;
+     font-weight: 600;
+     font-size: 14px;
+     font-family: 'Open Sans', sans-serif;
+}
+ .toplevel_page_wc_referral .wp-list-table tr a{
+     color: #363636!important;
+}
+ .toplevel_page_wc_referral .wp-list-table tbody tr:hover a {
+     color: #08c!important;
+}
+ .toplevel_page_wc_referral .wp-list-table tbody tr {
+     background-color: transparent;
+     border-bottom: 1px solid #e2e2e2;
+}
+ .wmc_referral_table_shadow .widefat td {
+     vertical-align: middle;
+}
+ .wmc_referral_table_shadow.wmc_banner_section .widefat td {
+     vertical-align: top;
+}
+ .toplevel_page_wc_referral .wp-list-table tbody tr:hover {
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     z-index: 1;
+}
+ .toplevel_page_wc_referral tbody tr td {
+     color: #404040;
+     font-weight: 400;
+     font-size: 14px;
+     font-family: 'Open Sans', sans-serif;
+}
+ .toplevel_page_wc_referral .row-actions span > .editinline, .toplevel_page_wc_referral:not(.post-type-wmc-banner) .row-actions .edit {
+     width: 20px;
+     height: 20px;
+     background-color: #0088cc;
+     display: block;
+     border-radius: 4px;
+     cursor:pointer;
+     float: left;
+     margin-right: 10px;
+     font-size:0;
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -79px -120px;
+}
+ .toplevel_page_wc_referral .row-actions span > .editinline{
+     background-color: #f68e56;
+}
+ .toplevel_page_wc_referral .row-actions {
+     display: inline-block;
+     vertical-align: middle;
+     margin-left: 10px;
+}
+ .toplevel_page_wc_referral .row-actions .edit a {
+     font-size: 0;
+}
+ #referral_user_form .view_hierarchie a.view_hierarchie {
+     background-repeat: no-repeat;
+     display: block;
+     text-indent: -9999px;
+     background-color: #cccccc;
+     width: 30px;
+     height: 30px;
+     margin: 0 auto;
+     border-radius: 4px;
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -75px -62px;
+     transition:all 0.5s;
+     text-indent: -9999px;
+     outline:0!important;
+}
+ #referral_user_form .referral_level a.move_level_up {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 14px 7px;
+    border-color: transparent transparent #0088CC transparent;
+    line-height: 0;
+    _border-color: #000000 #000000 #0088CC #000000;
+    display: inline-block;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+    margin-left: 10px;
+}
+#referral_user_form .widefat td img {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+#referral_user_form .no_of_followers,  #referral_user_form td.view_hierarchie {
+    position: relative;
+    height: 46px;
+}
+
+ #referral_user_form .wp-list-table tbody tr:hover a.view_hierarchie {
+     background-color: #0088cc;
+}
+ #referral_user_form .view_hierarchie a:focus, #referral_user_form .view_hierarchie a:focus .media-icon img{
+     box-shadow: none;
+}
+ #referral_user_form .view_hierarchie a:hover {
+    /* background-position: center bottom;
+     */
+}
+ #view_hierarchie a{
+     text-align: center;
+}
+ #view_hierarchie span{
+     float: none;
+}
+ #view_hierarchie .sorting-indicator{
+     display: none;
+}
+ body.toplevel_page_wc_referral .ui-dialog {
+     border-radius: 0;
+     bottom: 0 !important;
+     left: auto !important;
+     padding: 5px;
+     position: fixed;
+     right: 0 !important;
+     top: auto !important;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     border-radius: 10px;
+}
+ body.toplevel_page_wc_referral .ui-dialog .ui-dialog-titlebar {
+     background: #0088cc none repeat scroll 0 0;
+     border-radius: 0;
+     color: #fff;
+     padding: 10px 15px;
+     line-height: 1;
+     height:auto;
+}
+ body.toplevel_page_wc_referral .ui-dialog-titlebar-close span {
+}
+ body.toplevel_page_wc_referral .ui-dialog-titlebar-close:after {
+     background-image: url(../images/icon/icon-panel.png)!important;
+     background-position:-81px -249px;
+     content: ''!important;
+     z-index: 2;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+ #referral_user_form .referral_code.column-referral_code > div {
+    /* height: 40px;
+     overflow: hidden;
+     */
+}
+ #referral_program_statistics > div {
+     background: #fff none repeat scroll 0 0;
+     border-radius: 10px;
+     display: inline-block;
+     margin-right: 2.711%;
+     width: 25%;
+     border: 0;
+     box-shadow: 0 0 10px rgba(95,95,95,0.20);
+     padding: 20px;
+     overflow: hidden;
+}
+ #referral_program_statistics .icon {
+     background: #f7fbfd none repeat scroll 0 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     float: left;
+     width: 60px;
+     height: 60px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     border-radius: 10px;
+     margin-right: 20px;
+}
+ #referral_program_statistics .icon:after {
+     content: '';
+    /* background-size: contain;
+     */
+     background-repeat: no-repeat;
+     width: 40px;
+     height: 40px;
+     background-position: center;
+}
+ #referral_program_statistics .icon .dashicons {
+     display: none;
+}
+ #referral_program_statistics .icon .dashicons {
+     color: #fff;
+     font-size: 60px;
+     height: auto;
+     width: auto;
+}
+ #referral_program_statistics .icon .dashicons::before {
+     height: auto;
+     width: auto;
+}
+ #referral_program_statistics {
+     color: #333;
+     text-align: center;
+     margin-bottom:40px;
+     padding: 0 20px;
+     position: relative;
+     display: flex;
+}
+ div#referral_program_statistics:after {
+     position: absolute;
+     width: 100%;
+     height: 140px;
+     background-color: #ffffff;
+     content: '';
+     left: 0;
+     top: -88px;
+     z-index: -1;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(95, 95, 95, 0.2);
+}
+ #referral_program_statistics .total_users_panel .icon{
+     background-color: #0088cc;
+     box-shadow: 0 0 10px rgb(0, 144, 188, 0.5 );
+}
+ #referral_program_statistics .total_users_panel .icon:after {
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -20px -14px;
+}
+ #referral_program_statistics .total_referral_panel .icon {
+     background-color: #ea5358;
+     box-shadow: 0 0 10px rgb(234, 83, 88, 0.5 );
+}
+ #referral_program_statistics .total_referral_panel .icon:after {
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -20px -68px;
+}
+ #referral_program_statistics .total_earn_panel .icon{
+     background-color: #39b54a;
+     box-shadow: 0 0 10px rgb(57, 181, 74, 0.5 );
+}
+ #referral_program_statistics .total_earn_panel .icon:after {
+     background-image: url(../images/icon/icon-panel.png);
+    /* background-position: -20px -128px!important;
+    */
+     background-position: -20px -128px!important;
+}
+ #referral_program_statistics .total_redeem_panel .icon{
+     background-color: #f68e56;
+     box-shadow: 0 0 10px rgb(246, 142, 86, 0.5 );
+}
+ #referral_program_statistics .total_redeem_panel .icon:after {
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -20px -186px 
+}
+ #referral_program_statistics .total_redeem_panel {
+     margin-right: 0;
+}
+ #referral_program_statistics .number {
+     font-size: 36px;
+     line-height: 100%;
+     color: #000000;
+     font-family: 'Open Sans', sans-serif;
+     text-align: left;
+     font-weight: 700;
+}
+ #referral_program_statistics .text{
+     font-size: 15px;
+     line-height: 100%;
+     color: #333333;
+     font-family: 'Open Sans', sans-serif;
+     text-align: left;
+     margin-top: 10px;
+}
+ #referral_user_form .tablenav.bottom .actions {
+     display: none;
+}
+ #referral_user_form #display_name {
+     width: 14%;
+}
+ #referral_user_form #no_of_followers{
+     text-align: center;
+     width: 14%;
+}
+ #referral_user_form #total_credits{
+     text-align: center;
+     width: 12%;
+}
+ #referral_user_form #view_inaciver_user, #referral_user_form #deactivate_date, #referral_user_form #join_date{
+     width: 14%;
+}
+ #referral_user_form #view_hierarchie{
+     width: 10%;
+}
+ #referral_user_form #referral_code{
+     width: 14%;
+}
+ .toplevel_page_wc_referral .wp-list-table .column-display_name{
+     width:8%;
+}
+ .toplevel_page_wc_referral .wp-list-table .column-referrer_name{
+     width:12%;
+}
+ .toplevel_page_wc_referral .wp-list-table .column-email{
+     width:20%;
+}
+ .toplevel_page_wc_referral .wp-list-table #order_id{
+     width: 8%;
+}
+ .toplevel_page_wc_referral .wp-list-table #credits{
+     width: 21%;
+}
+ .toplevel_page_wc_referral .wp-list-table #redeems{
+     width: 15%;
+}
+ .toplevel_page_wc_referral .tablenav .tablenav-pages{
+     margin-bottom: 10px!important;
+     margin-top: 0!important;
+}
+ .tablenav .one-page .displaying-num{
+     margin-bottom: 0;
+}
+ .toplevel_page_wc_referral .wp-list-table .amount {
+     display: block;
+     text-align: right;
+     padding-right: 20px;
+}
+ #referral_user_form .no_of_followers{
+     padding-right: 40px;
+     text-align: right;
+}
+#referral_user_form th#referral_level {
+    width: 10%;
+}
+ .toplevel_page_wc_referral .wp-list-table .total_credits .amount{
+     padding-right: 25px 
+}
+ .toplevel_page_wc_referral .wrap h1 {
+     color: #0088cc;
+     font-family: 'Open Sans', sans-serif;
+     font-size: calc(1rem + 1vw);
+     font-weight: bold;
+     margin-bottom: 15px;
+     text-align: center;
+     line-height: 1;
+     padding: 30px 0;
+     margin: 20px 0 0 0;
+}
+ .post-type-wmc-banner .wrap h1 {
+     color: #0088cc;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 30px;
+     font-weight: bold;
+     margin-bottom: 15px;
+}
+ .woocommerce .wmc_error + #message{
+     display: none;
+}
+ .wmc-hide, #wmc-delete-last.wmc-hide,#wmc-add-more.wmc-hide{
+     display: none;
+}
+ .wmc-buttons span{
+     margin-right: 20px;
+}
+ .wmc-advSettings input[type="number"]{
+     width: 100px;
+     text-align: right;
+}
+ .wmc-advSettings .wmc-level-table td input[type="number"],
+ .wmc-advSettings .wmc-order-level-table td input[type="number"] {
+     min-height: 35px;
+     border: 1px solid #0088cc;
+     background-color: #ffffff;
+}
+.wmc-advSettings .wmc-level-table select.wmc-bouns-offere-type {
+    min-height: 35px;
+    border: 1px solid #0088cc;
+    background-color: #ffffff;
+    min-width: 100px;
+}
+ .wmc-email-template input[type="text"]{
+     width: 100%;
+     margin:10px 0;
+}
+ .wmc-email-template tbody tr td:first-child{
+     width:70%;
+}
+ .wmc-email-template tbody tr td small, .wmc-email-template label{
+     font-weight: bold;
+}
+ .wmc-advSettings ul li {
+     margin: 0;
+     color: #666666;
+}
+ .wmc-advSettings .form-table th,.wmc-advSettings .form-table td{
+     padding:30px 0;
+}
+ .wmc-advSettings .wmc-buttons{
+     margin-top: 20px;
+     display: flex;
+     flex-direction: row-reverse;
+}
+/* temp hide symball */
+ #referral_user_form span.woocommerce-Price-currencySymbol {
+     display: none;
+}
+ #otherwise_credits span.woocommerce-Price-currencySymbol {
+     display: none;
+}
+ #point_logs_id span.woocommerce-Price-currencySymbol {
+     display: none;
+}
+ #form_widthdraw_filter .alignleft.actions {
+     margin-bottom: 10px;
+     background: #fff none repeat scroll 0 0;
+     border: 1px solid #ccc;
+     display: block;
+     float: none;
+     padding: 20px;
+     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+}
+ form#form_widthdraw_table {
+     padding-top: 68px;
+}
+ #form_widthdraw_filter .alignleft.actions input {
+     margin-right: 10px;
+}
+ form#form_widthdraw_table #display_name {
+     width: 130px;
+}
+ form#form_widthdraw_table th#redeems {
+     width: auto !important;
+}
+ form#form_widthdraw_table th#message {
+     width: 150px !important;
+}
+ .mdl-tabs {
+     display: block;
+     width: 100%;
+}
+ .mdl-grid {
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-flex-flow: row wrap;
+     -ms-flex-flow: row wrap;
+     flex-flow: row wrap;
+     margin: 0 auto;
+     -webkit-align-items: stretch;
+     -ms-flex-align: stretch;
+     align-items: stretch;
+}
+ .mdl-cell {
+     box-sizing: border-box;
+}
+ .mdl-grid.mdl-grid--no-spacing>.mdl-cell {
+     margin: 0;
+}
+ .mdl-tabs__tab-bar {
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-flex-direction: row;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-align-content: space-between;
+     -ms-flex-line-pack: justify;
+     align-content: space-between;
+     -webkit-align-items: flex-start;
+     -ms-flex-align: start;
+     align-items: flex-start;
+     height: 48px;
+     padding: 0;
+     margin: 0;
+     border-bottom: 1px solid #e0e0e0;
+}
+ .mdl-tabs__tab{
+     margin: 0;
+     border: none;
+     padding: 0 24px;
+     float: left;
+     position: relative;
+     display: block;
+     text-decoration: none;
+     height: 48px;
+     line-height: 48px;
+     text-align: center;
+     font-weight: 500;
+     font-size: 14px;
+     text-transform: uppercase;
+     color: rgba(0,0,0,.54);
+     overflow: hidden;
+     box-shadow: none;
+}
+ .wmc-email-template a:focus{
+     box-shadow: none;
+}
+ .vertical-mdl-tabs .mdl-tabs__tab {
+     width: 100%;
+     height: 35px;
+     line-height: 35px;
+     box-sizing: border-box;
+     letter-spacing: 2px;
+}
+ .vertical-mdl-tabs.mdl-tabs .mdl-tabs__tab {
+     text-align: left;
+}
+ @media (min-width: 840px) {
+     .mdl-cell {
+         margin: 8px;
+         width: calc(33.3333333333% - 16px);
+    }
+     .mdl-cell--2-col, .mdl-cell--2-col-desktop.mdl-cell--2-col-desktop {
+         width: calc(16.6666666667% - 16px);
+    }
+     .mdl-grid--no-spacing>.mdl-cell {
+         width: 33.3333333333%;
+    }
+     .mdl-grid--no-spacing>.mdl-cell--2-col, .mdl-grid--no-spacing>.mdl-cell--2-col-desktop.mdl-cell--2-col-desktop {
+         width: 16.6666666667%;
+    }
+     .mdl-cell--10-col, .mdl-cell--10-col-desktop.mdl-cell--10-col-desktop {
+         width: calc(83.3333333333% - 16px);
+    }
+     .mdl-grid--no-spacing>.mdl-cell--10-col, .mdl-grid--no-spacing>.mdl-cell--10-col-desktop.mdl-cell--10-col-desktop {
+         width: 83.3333333333%;
+    }
+}
+ .mdl-tabs__panel {
+     display: none;
+}
+ .vertical-mdl-tabs {
+     margin-top: 30px;
+}
+ .vertical-mdl-tabs .mdl-tabs__tab-bar {
+     -webkit-flex-direction: column;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     padding-bottom: 35px;
+     height: inherit;
+     border-bottom: none;
+     border-right: 1px solid rgba(10, 11, 49, 0.20);
+}
+ .vertical-mdl-tabs .mdl-tabs__tab {
+     width: 100%;
+     height: 35px;
+     line-height: 35px;
+     box-sizing: border-box;
+     letter-spacing: 2px;
+}
+ .vertical-mdl-tabs .mdl-tabs__tab:hover {
+     background: rgba(158, 158, 158, 0.34);
+     color: black;
+}
+ .vertical-mdl-tabs.mdl-tabs.is-upgraded a.mdl-tabs__tab.is-active {
+     border-right: 3px solid #ED462F;
+}
+ .vertical-mdl-tabs.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+     content: inherit;
+     height: 0;
+}
+ .vertical-mdl-tabs.mdl-tabs.is-upgraded .mdl-tabs__panel.is-active, .mdl-tabs__panel {
+     padding: 0 30px;
+}
+ .vertical-mdl-tabs.mdl-tabs .mdl-tabs__tab {
+     text-align: left;
+}
+ .text-center {
+     text-align: center;
+}
+ .mdl-tabs .mdl-tabs__tab.is-active {
+     color: #0085BA;
+}
+ .mdl-tabs .mdl-tabs__tab.is-active:after {
+    content: "";
+    height: 100%;
+    width: 2px;
+    background: #0085BA;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+ .mdl-tabs__panel {
+     display: none;
+}
+ .mdl-tabs__panel.is-active {
+     display: block;
+}
+/** add-ons tab (By Nitin 11-06-2020) **/
+ .wmc_referral_table_shadow .wmc-addons-panel > h1 {
+     padding: 0!important;
+     color: #0088cc!important;
+     text-align:left;
+     margin:0;
+     font-size: 24px;
+     font-weight: bold;
+     font-family: 'Helvetica Neue', sans-serif !important;
+}
+ .wmc-addons-panel > p {
+     margin-bottom: 30px;
+     font-size: 16px;
+     color: #6b6b6b;
+}
+ .wmc-addons-panel {
+     width: 100%;
+     display: flow-root;
+     height: 100%;
+     background-color: #fff;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item {
+     display: flex;
+     flex-wrap: wrap;
+     background-color: #fff;
+     box-shadow: 0 0px 5px rgba(149, 149, 149, 0.5);
+     border-radius: 6px;
+     width: 100%;
+     box-sizing: border-box;
+     overflow: hidden;
+     margin-bottom: 20px;
+     float: left;
+     position: relative;
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item-icon {
+     overflow: hidden;
+     background: #f5f5f5;
+     padding: 0;
+     box-sizing: border-box;
+     width: 23%;
+     padding: 20px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+ .wmc-addons-panel .wmc-addons-banner-inner {
+     width: 160px;
+     height: 160px;
+     margin-bottom: 20px;
+     background: radial-gradient( rgba(255,255,255,0.1), rgba(0,0,0,0.4));
+     border-radius: 50%;
+     padding:12px;
+     border-top: 2px solid rgba(0,0,0,0.2);
+     border-bottom: 2px solid rgba(255,255,255,0.5);
+     margin-left:auto;
+     margin-right:auto;
+}
+ .wmc-addons-panel .wmc-blue-gradient .wmc-addons-banner-block-item-icon, .wmc-addons-panel > .wmc-blue-gradient > .wmc-addon-inner:after{
+     background: linear-gradient(360deg, rgba(5,151,253,0.6), rgba(1,28,188,0.6));
+}
+ .wmc-addons-panel .wmc-purple-gradient .wmc-addons-banner-block-item-icon, .wmc-addons-panel > .wmc-purple-gradient > .wmc-addon-inner:after{
+     background: linear-gradient(360deg, rgba(128, 6, 198, 0.6), rgba(191, 4, 203, 0.6));
+}
+ .wmc-addons-panel .wmc-seagreen-gradient .wmc-addons-banner-block-item-icon, .wmc-addons-panel > .wmc-seagreen-gradient > .wmc-addon-inner:after{
+     background: linear-gradient(360deg, rgba(9, 202, 185, 1), rgba(0, 173, 255, 1));
+}
+ .wmc-addons-panel .wmc-red-gradient .wmc-addons-banner-block-item-icon, .wmc-addons-panel > .wmc-red-gradient > .wmc-addon-inner:after{
+     background: linear-gradient(360deg, rgb(244, 88, 127), rgb(242, 82, 121));
+}
+ .wmc-addons-panel .wmc-green-gradient .wmc-addons-banner-block-item-icon, .wmc-addons-panel > .wmc-green-gradient > .wmc-addon-inner:after{
+     background: linear-gradient(360deg, rgb(165, 211, 114), rgb(76, 185, 117));
+}
+ .wmc-addons-panel .wmc-mauve-gradient .wmc-addons-banner-block-item-icon, .wmc-addons-panel > .wmc-mauve-gradient > .wmc-addon-inner:after{
+     background: linear-gradient(360deg, rgba(153, 111, 177, 0.8), rgb(136, 87, 164));
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item-icon img {
+     width: 100%;
+     height: auto;
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item-content {
+     max-width: 52%;
+     margin-top: 30px;
+     padding-left:30px;
+     padding-right:30px;
+     margin-bottom: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item-content h3 {
+     margin-top: 0;
+     margin-bottom: calc(0.4rem + 0.4vw);
+     font-size: 22px;
+     font-weight: 600;
+     color: #000000;
+     font-family: 'Open Sans', sans-serif;
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item-content p {
+     margin-top: 0;
+     margin-bottom: calc(0.4rem + 2.2vw);
+     font-size: 16px;
+     color: #5f5f5f;
+     font-family: 'Open Sans', sans-serif;
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item .wmc-addon-inner {
+     width: 25%;
+     background-color: #f5f5f5;
+     padding: 20px 30px 20px 20px;
+     position:relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item .wmc-addon-inner:after {
+     position:absolute;
+     content:'';
+     width:10px;
+     height:100%;
+     right:0;
+     top:0;
+}
+ .wmc-addons-panel a.wmc-addons-button{
+     border-radius: 4px;
+     display: inline-block;
+     text-decoration: none!important;
+     min-height:35px;
+     line-height: 1px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: all 0.5s;
+     text-align: center;
+     padding: 5px 15px;
+     color: #fff;
+     font-size: 16px;
+     font-family: 'Open Sans', sans-serif;
+}
+ .wmc-addons-panel a.wmc-addons-button:hover{
+     box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item-icon .wmc-addons-watch {
+     padding: 8px 10px 8px 35px;
+     border: 1px solid rgba(255,255,255,0.3);
+     background-color: rgba(0,0,0,0.1);
+     border-radius: 25px;
+     width: 80%;
+     display: block;
+     margin: 0 auto;
+     line-height: 1;
+     color: #fff;
+     font-weight: 500;
+     background-repeat: no-repeat;
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -60px -216px;
+     box-sizing: border-box;
+}
+ .wmc-addons-panel .wmc-addons-banner-block-item-icon .wmc-addons-watch:hover {
+     border: 1px solid rgba(255,255,255,0.5);
+     background-color: rgba(0,0,0,0.3);
+}
+ .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license input {
+     min-height: 35px;
+     box-sizing: border-box;
+}
+ .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license label {
+     font-size: 20px;
+     color: #000;
+     font-weight: 500;
+     display: block;
+     text-align: center;
+     margin-bottom: 20px;
+     margin-right: auto;
+     margin-left: auto;
+     font-family: 'Open Sans', sans-serif;
+}
+ .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license .addon-verify {
+     background-color: #39b54a;
+    ;
+     line-height: 1;
+     color: #fff;
+     border: 0px;
+     border: 1px solid #a9bbcc;
+     padding: 5px 10px;
+     font-size: 14px;
+     border-radius: 3px;
+     float: right;
+     cursor: pointer;
+     transition: all 0.5s;
+     font-family: 'Open Sans', sans-serif;
+}
+ .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license .addon-licence-key {
+     margin-right: 7%;
+     width: 65%;
+}
+ .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license .addon-verify:focus, .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license .addon-licence-key:focus{
+     box-shadow:none!important;
+     outline:0!important;
+}
+ .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license .addon-verify:hover {
+     box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+ .wmc-addons-panel .wmc-addon-price {
+     font-family: 'Open Sans', sans-serif;
+     line-height: 1;
+     text-decoration: none!important;
+     color: #000000;
+     font-size: 36px;
+     font-weight: 600;
+     border-radius: 4px;
+     text-align:center;
+     margin-bottom: 20px;
+}
+ .wmc-addons-panel a.wmc-addons-button.addon-buy-now {
+     background-color: #f68e56;
+    ;
+     float: left;
+     margin: 0 10px 10px;
+}
+ .wmc-addons-panel a.wmc-addons-button.addon-demo {
+     background-color: #08c;
+     line-height: 1;
+     float: none;
+     margin: 0 10px;
+}
+ .wmc-addons-panel .wmc-addons-button-activate {
+     background-color: #08c;
+     color: #ffffff;
+     padding: 7px 25px;
+     border: 0;
+     font-size: 16px;
+     border-radius: 4px;
+     transition:all 0.5s;
+}
+ .wmc-addons-panel .wmc-addons-button-activate:focus {
+     box-shadow:0 0 5px rgba(0,0,0,0.2)!important;
+     outline:0!important;
+}
+ .wmc-addons-panel .wmc-addons-button-activate:hover {
+     box-shadow:0 0 5px rgba(0,0,0,0.2)!important;
+}
+/*Responsive*/
+ @media(max-width: 575px){
+     .wmc-addons-panel .wmc-addons-banner-block-item-icon{
+         width: 100%;
+         height: auto;
+         padding: 5%;
+         box-sizing: border-box;
+    }
+     div#referral_program_statistics:after {
+         top: -98px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-icon .wmc-addons-watch{
+         width:60%;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-content {
+         padding: 10px 15px;
+         margin: 0!important;
+         max-width: 100%;
+         display: block;
+         flex-direction: row;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item .wmc-addon-inner {
+         flex-direction: column!important;
+         padding-bottom: 25px;
+    }
+     .wmc-addons-panel a.wmc-addons-button{
+         min-height:30px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-content h3{
+         font-size: 18px;
+         text-align: center;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-content p {
+         font-size: 14px;
+         text-align: center;
+    }
+     .wmc-addons-panel a.wmc-addons-button{
+         margin:10px auto;
+         font-size: 14px;
+         text-align: center;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-content h3{
+         margin-top:10px;
+    }
+     .wmc-addons-panel .wmc-addon-price{
+         margin-bottom:10px!important;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license {
+         flex-wrap: wrap;
+         justify-content: center;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license label {
+         margin: 0 auto 10px auto!important;
+         display: block;
+         width: 100%;
+         text-align: center;
+    }
+     .wmc-addons-panel .wmc-addon-price sub{
+         font-size: 16px;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license input[type="text"]{
+         max-width:60%;
+    }
+     .wmc-addons-panel .wmc-addons-banner-inner {
+         width: 130px;
+         height: 130px;
+         padding: 7%;
+    }
+     .wmc-addons-panel .wmc-addon-price{
+         font-size:26px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item .wmc-addon-inner:after {
+         width: 100%;
+         height: 10px;
+         right: 0;
+         left:0;
+         top: auto;
+         bottom: 0;
+    }
+}
+ @media(min-width: 576px) and (max-width: 767px){
+     .wmc-addons-panel .wmc-addons-banner-block-item-icon {
+         width: 35%;
+    }
+     .wmc-addons-panel .wmc-addons-banner-inner {
+         width: 140px;
+         height: 140px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-content {
+         width: 65%;
+         max-width: unset;
+         padding: 0 15px;
+         margin:15px 0;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-content h3{
+         font-size:15px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-content p{
+         font-size:12px;
+    }
+     .wmc-addons-panel .wmc-addon-price{
+         font-size:20px;
+         padding:6px 12px;
+    }
+     .wmc-addons-panel .wmc-addon-price sub{
+         font-size:14px;
+    }
+     .wmc-addons-panel a.wmc-addons-button{
+         font-size:14px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item .wmc-addon-inner:after{
+         display:none;
+    }
+}
+ @media(max-width: 767px){
+     .wmc-addons-panel .wmc-addons-banner-block-item-content{
+         margin:15px 0;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license{
+         padding: 10px 15px;
+    }
+     .wmc-addons-panel .wmc-addon-price{
+         right: 15px;
+    }
+     .wmc-addons-panel{
+         padding:15px;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license input[type="text"]{
+         min-height: 30px;
+         line-height: 1.5;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license input[type="button"]{
+         padding: 6px 10px;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license label{
+         font-size: 14px;
+         color: #000;
+         font-weight: 500;
+         margin-right: 10px;
+    }
+     .wmc-addons-panel > h1{
+         font-size:16px!important;
+         margin-bottom: 10px!important;
+    }
+     .wmc-addons-panel > p{
+         font-size:14px!important;
+         margin-top:10px!important;
+         margin-bottom: 15px!important;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item .wmc-addon-inner{
+         flex-direction:row;
+         width:100%;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item .wmc-addon-inner > div{
+         display: flex;
+         align-items: center;
+    }
+     .wmc-addons-panel a.wmc-addons-button.addon-buy-now{
+         margin:0 10px!important;
+    }
+     .wmc-addons-panel .wmc-addon-price{
+         margin-bottom:0;
+    }
+}
+ @media(min-width: 768px) and (max-width:991px){
+     .wmc-addons-panel .wmc-addons-banner-block-item-content{
+         margin:15px 0;
+         width: 45%;
+         padding: 0 15px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item .wmc-addon-inner{
+         padding: 15px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-inner {
+         width: 140px;
+         height: 140px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-icon .wmc-addons-watch{
+         width:100%;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item .wmc-addon-inner {
+         width: 30%;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license input {
+         min-height: 40px!important;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license{
+         padding: 10px 20px;
+    }
+     .wmc-addons-panel .wmc-addon-price{
+         right: 20px;
+         font-size: 24px;
+    }
+     .wmc-addons-panel .wmc-addon-price sub {
+         font-size: 16px;
+    }
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license input[type="button"]{
+         padding: 10px 15px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-content h3{
+         font-size: 18px;
+    }
+}
+ @media(max-width:991px){
+     .wmc-addons-panel .wmc-addons-banner-block-item-content h3{
+         line-height: 1.2;
+    }
+}
+ @media(min-width: 992px) and (max-width:1199px){
+     .wmc-addons-panel .wmc-verify-license.wmc-withdrawal_license{
+         padding: 15px 25px;
+    }
+     .wmc-addons-panel .wmc-addon-price{
+         right: 25px;
+    }
+     .wmc-addons-panel .wmc-addons-banner-block-item-content h3{
+         line-height: 1.2;
+    }
+}
+/*********************************/
+/* common css by nitin 15-06-20*/
+ h1.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, .nav-tab-wrapper {
+     border-bottom: 0px solid #ebebeb;
+     padding: 0 20px;
+}
+ .toplevel_page_wc_referral .wmc_header_tabs {
+     width: 100%;
+     overflow-y: scroll;
+     position: relative;
+}
+ .toplevel_page_wc_referral .wmc_header_tabs::-webkit-scrollbar {
+     display: none;
+     opacity: 0;
+}
+ .wmc_header_tabs h2.nav-tab-wrapper {
+     display: flex;
+     width: max-content;
+}
+ .toplevel_page_wc_referral .wmc_header_tabs + h3 {
+     display: none;
+}
+ .toplevel_page_wc_referral .nav-tab-wrapper .nav-tab {
+     float: left;
+     border: 1px solid #ebebeb;
+     border-bottom: none;
+     margin-left: 0.5em;
+     padding: 12px 15px;
+     font-size: 15px;
+     line-height: 1;
+     font-weight: 400;
+     background: #ebebeb;
+     color: #555;
+     text-decoration: none;
+     white-space: nowrap;
+     overflow: hidden;
+     border-radius: 8px 8px 0 0;
+     transition: all .5s;
+     outline: 0!important;
+     box-shadow:none;
+}
+ .toplevel_page_wc_referral h2.nav-tab-wrapper .nav-tab:first-child{
+     margin-left: 0;
+}
+ .toplevel_page_wc_referral .nav-tab-wrapper .nav-tab-active, .toplevel_page_wc_referral .nav-tab-wrapper .nav-tab-active:focus{
+     border-bottom: 1px solid #ffffff;
+     background: #ffffff;
+     color: #0088cc;
+     font-weight: 600;
+}
+ .toplevel_page_wc_referral .nav-tab-wrapper .nav-tab:hover{
+     background: #ffffff;
+     color: #0088cc;
+}
+ .toplevel_page_wc_referral .tablenav-pages span.pagination-links .button {
+     background-color: #ebebeb !important;
+     border: 0;
+     color: #333333!important;
+     font-weight: 600;
+}
+ .toplevel_page_wc_referral .wmc_referral_table_shadow{
+     background-color: #ffffff;
+     padding: 40px 20px 20px 20px;
+     border: 1px solid #ebebeb;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(95,95,95,0.20);
+     border-top: 0;
+}
+ .toplevel_page_wc_referral .tablenav {
+     clear: both;
+     height:auto;
+     margin: 0;
+     padding-top: 0;
+     vertical-align: middle;
+}
+ .toplevel_page_wc_referral .tablenav.bottom {
+     margin-top: 10px;
+}
+/* .toplevel_page_wc_referral .wmc_header_tabs:after {
+     width: 46px;
+     height: 100%;
+     background-color: #08c;
+     position: absolute;
+     content: '';
+     top: 0;
+     right: 0;
+}
+ */
+ .toplevel_page_wc_referral .wmc_header_tabs:after:hover h2.nav-tab-wrapper {
+     transform: translateX(-35%);
+}
+ #dialog_referral_user{
+     width:100%!important;
+}
+ .wmc_referral_table_shadow .wmc-email-template .mdl-tabs{
+     margin-top:0;
+}
+ .wmc-email-template .mdl-grid .mdl-cell {
+     width:100%;
+}
+ .wmc-email-template .mdl-grid .mdl-cell .mdl-tabs__tab-bar{
+     display: flex;
+     flex-direction: row;
+     border-bottom: 0;
+     border-right: none;
+     padding-bottom:0;
+     margin-bottom: 30px;
+}
+ .wmc-email-template .mdl-tabs__tab-bar .mdl-tabs__tab{
+     width: auto;
+     overflow: hidden;
+     font-weight:600;
+     text-align: center;
+     background-color: #f5f5f5;
+     border: 1px solid #0085ba;
+     box-sizing: border-box;
+     height: 40px;
+     transition:all 0.5s;
+     line-height: 40px;
+     font-family: 'Open Sans', sans-serif;
+}
+ .wmc-email-template .mdl-tabs .mdl-tabs__tab.is-active{
+     background: #0085BA;
+     color:#ffffff;
+}
+ .wmc-email-template .mdl-tabs .mdl-tabs__tab.is-active:after {
+     content: "";
+     height: 2px;
+     width: 100%;
+     background: #0085BA;
+     bottom:0px;
+     top:auto;
+     display:none;
+}
+/* .wmc-email-template .mdl-tabs .mdl-tabs__tab.is-active:before{
+     content: "";
+     position:absolute;
+     width:0;
+     height:0;
+     border-right: 20px solid transparent;
+     border-left: 20px solid transparent;
+     border-top: 15px solid #0088cc;
+     left:0;
+     right:0;
+     margin:0 auto;
+     top:100%;
+     z-index: 1;
+}
+ */
+ .wmc-email-template .mdl-tabs .mdl-tabs__tab.is-active {
+     font-weight:600;
+}
+ .wmc-email-template .mdl-tabs__panel label {
+     font-family: 'Open Sans', sans-serif;
+     font-size:15px;
+}
+ .wmc-email-template .mdl-tabs__panel input {
+     border:1px solid #0088cc;
+     margin-bottom:30px;
+     min-height:35px;
+}
+ .wmc_referral_table_shadow .column-action input.button{
+     border-color: #0088cc;
+     padding: 5px 15px;
+     font-family: 'Open Sans', sans-serif;
+     font-size:14px;
+     line-height:1;
+	 min-height:30px;
+}
+ .wmc_referral_table_shadow .column-action .button.button-primary{
+     background: #ffffff;
+     color: #0088cc;
+     transition:all 0.5s;
+}
+ .wmc_referral_table_shadow .column-action .button.button-primary:hover{
+     background: #0088cc;
+     color: #ffffff;
+}
+ .wmc_referral_table_shadow .column-action .button.btn_remove_credit{
+     background: #ffffff;
+     color: #f68e56;
+     border: 1px solid #f68e56;
+     transition:all 0.5s;
+}
+ .wmc_referral_table_shadow .column-action .button.btn_remove_credit:hover{
+     background: #f68e56;
+     color: #ffffff;
+}
+ .wmc-advSettings form h2{
+     margin-top: 0;
+     font-size: 20px;
+     color: #0088cc;
+     font-family: 'Open Sans', sans-serif;
+}
+ .wmc-advSettings form p{
+     margin-top: 0;
+     font-size: 16px;
+     color: #666666;
+     font-family: 'Open Sans', sans-serif;
+}
+/* */
+ .wmc-advSettings .wmc-level-table tbody tr,
+ .wmc-advSettings .wmc-order-level-table tbody tr{
+     border-bottom: 1px solid #ebebeb;
+}
+ .wmc-advSettings .wmc-level-table th, .wmc-advSettings .wmc-level-table td{
+}
+ .wmc-advSettings .wmc-level-table th,
+ .wmc-advSettings .wmc-order-level-table th{
+     padding-left:0;
+     width:250px;
+}
+ .wmc-advSettings .wmc-level-table td,
+ .wmc-advSettings .wmc-order-level-table td{
+     padding-left:50px;
+}
+ tr.wmc-optional.wmc_advsetting_credit td {
+     display: flex;
+}
+ .wmc-advSettings .wmc-level-table th label,
+ .wmc-advSettings .wmc-order-level-table th label{
+     font-size:16px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight:600;
+}
+ .wmc-advSettings .wmc-level-table td label
+ .wmc-advSettings .wmc-order-level-table td label{
+     position:relative;
+     width: 100%;
+     display: table;
+     margin-bottom: 15px!important;
+     font-size: 16px;
+     font-weight: 600;
+     font-family: 'Open Sans', sans-serif;
+     color:#1c1c1c;
+}
+ .wmc-advSettings .wmc-level-table td label p.description{
+     font-size: 13px;
+     font-weight: 400;
+     font-family: 'Open Sans', sans-serif;
+     margin:15px 0;
+}
+ .wmc-advSettings .wmc-level-table td label ul li{
+     font-size: 13px;
+     font-weight: 600;
+     color:#1c1c1c;
+}
+ .wmc-advSettings .wmc-level-table td label input[type="radio"] {
+     width: 1.2rem;
+     height: 1.2rem;
+     background-color: #ffffff;
+     border: 1px solid #0088cc;
+}
+ .wmc-advSettings .wmc-level-table td label input[type="radio"]:checked::before {
+     content: "";
+     border-radius: 50%;
+     width: 0.7rem;
+     height: 0.7rem;
+     margin: 0.18rem;
+     background-color: #1e8cbe;
+     line-height: 1.14285714;
+}
+ .wmc-advSettings .wmc-level-table td label input[type="radio"]:focus{
+     box-shadow:none!important;
+}
+ .wmc-advSettings .wmc-buttons button.button-primary {
+     min-height: 35px;
+     padding: 5px 15px;
+     line-height: 1;
+     font-size: 14px;
+}
+ .wmc-advSettings .wmc-buttons #wmc-add-more,
+ .wmc-advSettings .wmc-buttons #wmc-order-add-more {
+     border: 1px solid #39b54a;
+     background-color: #ffffff;
+     color: #39B54a;
+     transition:all 0.5s;
+     padding: 5px 15px 5px 35px;
+     background-repeat: no-repeat;
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -70px -136px;
+}
+ .wmc-advSettings .wmc-buttons #wmc-delete-last,
+ .wmc-advSettings .wmc-buttons #wmc-order-delete-last {
+     border: 1px solid #ea5358;
+     background-color: #ffffff;
+     color: #ea5358;
+     transition:all 0.5s;
+     padding: 5px 15px 5px 35px;
+     background-repeat: no-repeat;
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -70px -164px;
+}
+ .wmc_referral_table_shadow input[type=checkbox] {
+     width: 1.2rem;
+     height: 1.2rem;
+     border: 1px solid #0088cc;
+}
+ .wmc_referral_table_shadow input[type="checkbox"]:checked::before{
+     width: 1.5rem;
+     height: 1.5rem;
+}
+ .wmc_referral_table_shadow button:focus{
+     box-shadow:none !important;
+     outline:0!important;
+}
+/* */
+ .tablenav-pages .current-page {
+     outline: 0!important;
+     box-shadow: none!important;
+}
+ .wmc_referral_table_shadow .wmc-email-template .mdl-tabs__panel {
+     padding: 0 0px;
+}
+ .wmc_referral_table_shadow .wmc-email-template .cell-50 {
+     width: 50%;
+     float: left;
+     box-sizing: border-box;
+     position:relative;
+     z-index:5;
+}
+ .wmc_referral_table_shadow .wmc-email-template .cell-50.cell-0 {
+     padding-right: 15px;
+}
+ .wmc_referral_table_shadow .wmc-email-template .cell-50.cell-1 {
+     padding-left: 15px;
+}
+/* */
+ .wmc_referral_table_shadow.wmc_banner_section {
+}
+ .wmc_referral_table_shadow.wmc_banner_section p.search-box{
+     display: inline-block;
+     float: left;
+}
+ .wmc_referral_table_shadow.wmc_banner_section h1.wp-heading-inline {
+     font-size: 20px;
+     margin: 0;
+     padding: 0 0 30px 0;
+     float: right;
+     display:none;
+}
+ .wmc_referral_table_shadow.wmc_banner_section .wp-heading-inline + .page-title-action {
+     margin-left: 0;
+     float: right;
+     min-height: 35px;
+     font-size: 15px;
+     margin: 0 10px;
+     border-radius: 4px;
+     color: #fff;
+     transition: all 0.5s;
+     background-color: #08c;
+     top:2px;
+     background-image: url(../images/icon/icon-panel.png);
+     background-position: -74.5px -189px;
+     border: 1px solid #08c;
+     background-repeat: no-repeat;
+     padding: 5px 15px 5px 35px;
+}
+ .wmc_referral_table_shadow.wmc_banner_section .wp-heading-inline + .page-title-action:focus {
+     outline:0!important;
+     box-shadow:none!important;
+}
+ .wmc_referral_table_shadow.wmc_banner_section .wp-heading-inline + .page-title-action:hover {
+     box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+}
+ .wmc_referral_table_shadow.wmc_banner_section .subsubsub {
+     color: #333;
+     min-height: 35px;
+     background-color: #ffffff;
+     padding: 4px 15px;
+     margin:0 15px 0 0 ;
+     line-height:1;
+     border: 1px solid #08c;
+     border-radius: 4px;
+}
+ .wmc_referral_table_shadow.wmc_banner_section .subsubsub a{
+     color:#08c;
+     font-weight: 600;
+}
+ .wmc_referral_table_shadow.wmc_banner_section .tablenav.top{
+    /* display: inline-flex;
+     */
+}
+ .wmc_referral_table_shadow.wmc_banner_section .tablenav .actions{
+     margin-bottom:10px;
+     display: inherit!important;
+     float: left;
+}
+ .wmc_referral_table_shadow.wmc_banner_section .tablenav .bulkactions{
+     margin-right:20px;
+}
+ .wmc_referral_table_shadow.wmc_banner_section .tablenav.top .tablenav-pages{
+     margin-left: auto;
+}
+ .wmc_header_tabs .scroller {
+     text-align: center;
+     cursor: pointer;
+     display: none;
+     position: absolute;
+     white-space: no-wrap;
+     vertical-align: middle;
+     background-color: #fff;
+     width: 30px;
+     height: 100%;
+     z-index: 7;
+     color: #08c;
+     padding: 10px 5px;
+     box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+ .wmc_header_tabs .scroller-right{
+     float:right;
+     right: 0;
+}
+ .wmc_header_tabs .scroller-left {
+     float:left;
+     left: 0;
+}
+ form#frm_user_credit_reports .wp-list-table th.column-no {
+     width: 6%;
+}
+ form#frm_user_credit_reports .wp-list-table #display_name {
+     width: 18%;
+}
+ form#frm_user_credit_reports .wp-list-table th.column-email{
+     width: 40%;
+}
+ .wmc_referral_table_shadow .users .row-actions {
+     display: none;
+}
+ .toplevel_page_wc_referral #frm_usercredits .wp-list-table .column-email {
+     width: 24%;
+}
+.wmc-customer-bonus-table th {
+    padding: 0;
+    margin: 0;
+}
+
+.wmc-advSettings  .wmc-customer-bonus-table th {
+    padding: 0;
+}
+
+table.form-table.wmc-customer-bonus-table {
+    text-align: left;
+}
+
+.wmc-advSettings table.form-table.wmc-customer-bonus-table tr td {
+    text-align: left;
+    padding: 0;
+    border: 0;
+}
+
+.wmc-advSettings table.form-table.wmc-customer-bonus-table tr {
+    border: 0;
+}
+
+.wmc-advSettings table.form-table.wmc-customer-bonus-table {
+    width: 50%;
+}
+/* ===========responsive============ */
+ @media(max-width:320px){
+     .toplevel_page_wc_referral p.search-box input, .wmc_referral_table_shadow .tablenav .actions input, .wmc_referral_table_shadow .tablenav .actions select{
+         margin-right:12px;
+    }
+     .toplevel_page_wc_referral .wmc_referral_table_shadow {
+         padding: 30px 10px 20px 10px!important;
+    }
+}
+ @media(max-width:575px){
+	 .wmc_referral_table_shadow #frm_usercredits .tablenav.top .actions,
+     .wmc_referral_table_shadow form#referral_user_form .bulkactions {
+         justify-content: space-between;
+    }
+     .wmc_referral_table_shadow form.actions .wmc_search_by_name,
+	 .wmc_referral_table_shadow .tablenav .actions .search_email{
+         margin-right:0!important;
+    }
+     #referral_program_statistics > div{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         padding:15px;
+         width:48%!important;
+    }
+     #referral_program_statistics .icon{
+         margin-right:0;
+    }
+     #referral_program_statistics .number {
+         font-size: 30px;
+         width: 100%;
+         text-align: center;
+         margin-top: 10px;
+    }
+     #referral_program_statistics .text {
+         font-size: 14px;
+         text-align: center;
+    }
+     .toplevel_page_wc_referral p.search-box input, .wmc_referral_table_shadow .tablenav .actions input, .wmc_referral_table_shadow .tablenav .actions select{
+         max-width: initial;
+         width: 46%;
+    }
+     .tablenav-pages .tablenav-paging-text {
+         float: none!important;
+         width: auto!important;
+    }
+     .wmc_referral_table_shadow #referral_user_form .tablenav .actions lable {
+         width:100%;
+         margin-bottom:10px;
+    }
+     .wmc_referral_table_shadow .tablenav .actions lable {
+         margin-left: 0;
+         font-size: 14px;
+    }
+     .wmc_referral_table_shadow .tablenav .actions .wmc_search_by_date + .wmc_search_by_date {
+         margin-right: 0;
+    }
+     .wmc_referral_table_shadow .tablenav .actions .wmc_search_by_date {
+         width: 46%;
+    }
+     .wmc_referral_table_shadow .tablenav .actions #doaction {
+         margin-left: auto;
+    }
+     .wmc-email-template .mdl-grid .mdl-cell .mdl-tabs__tab-bar {
+         display: flex;
+         flex-direction: column;
+    }
+     .wmc_referral_table_shadow .wmc-email-template .cell-50 {
+         width: 100%;
+         padding: 0!important;
+    }
+     .wmc_referral_table_shadow #point_logs_id p.search-box input[type="search"], .wmc_referral_table_shadow #otherwise_credits p.search-box input[type="search"]{
+         width:100%;
+         max-width:100%;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section #posts-filter{
+         background: none;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .wp-heading-inline + .page-title-action{
+         margin-right:0;
+         margin-right: 0;
+         font-size: 0;
+         width: 35px;
+         height: 35px;
+         padding: 0;
+         border-radius: 50%;
+         display: block;
+         background-position: -73.5px -189px;
+         margin-top:-5px;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section p.search-box{
+         margin-top:10px;
+         margin-bottom:10px!important;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .tablenav .actions select {
+         width: 45%;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section p.search-box #post-search-input{
+         width:46%;
+         height: 30px;
+         margin-right:0;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section p.search-box #search-submit{
+         margin-left: auto;
+         float: right;
+    }
+     .wmc-email-template .mdl-tabs__tab-bar .mdl-tabs__tab{
+         margin-bottom:5px;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .subsubsub{
+         margin-top: 0px;
+         margin-right: 0;
+         float: left;
+         border: 0;
+         padding: 0!important;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .tablenav .bulkactions, .wmc_referral_table_shadow.wmc_banner_section .tablenav .actions{
+         width:100%;
+    }
+     .wmc-advSettings .wmc-buttons {
+         flex-direction: column-reverse;
+         flex-wrap: wrap;
+    }
+     .wmc-advSettings .wmc-buttons span{
+         margin-bottom:8px;
+    }
+     .wmc-advSettings .form-table td{
+         padding-top:0!important;
+    }
+     .wmc-advSettings .wmc-buttons span button {
+         width: 53%;
+    }
+}
+/* end:575*/
+ @media(min-width:576px) and (max-width:767px){
+     .wmc_referral_table_shadow #referral_user_form .tablenav .search_email{
+         margin-right:0;
+    }
+     .wmc_referral_table_shadow #referral_user_form .tablenav .actions input.wmc_search_by_name, .wmc_referral_table_shadow #referral_user_form .tablenav .actions input.search_email {
+         width:48%;
+         max-width:48%;
+    }
+     .toplevel_page_wc_referral p.search-box .button, .wmc_referral_table_shadow .tablenav .actions .button{
+         margin-bottom:10px !important;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section p.search-box {
+         display: block;
+         float: none;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .wrap{
+         margin-right:0;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .wp-heading-inline + .page-title-action{
+         position: absolute;
+         right: 0;
+         top: 55px;
+         margin-right:0;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .tablenav.top{
+         margin-top:10px;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .tablenav .actions{
+         margin-bottom:0;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .wp-heading-inline + .page-title-action{
+         min-height:30px;
+         font-size: 13px;
+         background-position: -74.5px -191px;
+    }
+}
+/* end:576-767*/
+ @media(max-width:767px){
+     .toplevel_page_wc_referral .wp-list-table {
+         border-radius: 6px;
+    }
+     .toplevel_page_wc_referral .wrap h1 {
+         font-size: calc(1.1rem + 1.1vw);
+         line-height: 1.1;
+         padding: 20px 10px;
+    }
+     #referral_program_statistics {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         margin-bottom:20px;
+    }
+     #referral_program_statistics > div {
+         width: 45%;
+         margin-right: 0;
+         margin-bottom:20px;
+    }
+     .toplevel_page_wc_referral p.search-box input, .wmc_referral_table_shadow .tablenav .actions input, .wmc_referral_table_shadow .tablenav .actions select{
+         min-height:30px;
+         margin-bottom:10px;
+         font-size: 12px;
+    }
+     .wmc_referral_table_shadow .tablenav .actions #doaction2, .wmc_referral_table_shadow .tablenav .actions #doaction {
+         background-position: -73px -33px;
+    }
+     .wmc_referral_table_shadow .search-box #search-submit {
+         background-position: -70px -91px;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .actions #post-query-submit, .wmc_referral_table_shadow .tablenav .actions #reset_button_wmrcr, .wmc_referral_table_shadow .tablenav .actions #reset_button {
+         background-position: -72px -4px;
+    }
+     form#referral_user_form .in_active_user_panel .button-secondary {
+         min-height: 30px;
+         font-size: 12px;
+    }
+     .toplevel_page_wc_referral p.search-box .button, .wmc_referral_table_shadow .tablenav .actions .button{
+         font-size:13px;
+    }
+     form#referral_user_form .in_active_user_panel {
+         margin-top: 8px;
+    }
+     .wmc_referral_table_shadow .tablenav .actions {
+         margin-bottom: 10px;
+    }
+     .toplevel_page_wc_referral .tablenav .tablenav-pages .button, .tablenav .tablenav-pages .tablenav-pages-navspan, .toplevel_page_wc_referral .tablenav-pages .pagination-links .current-page{
+         min-width: 25px;
+         min-height: 25px;
+         padding: 2px 0px;
+    }
+     .toplevel_page_wc_referral .tablenav-pages .pagination-links .current-page, .toplevel_page_wc_referral .tablenav-pages .pagination-links{
+         font-size:12px;
+    }
+     .toplevel_page_wc_referral .wmc_referral_table_shadow {
+         padding: 30px 15px 20px 15px;
+    }
+     .wmc-email-template .mdl-tabs__tab-bar .mdl-tabs__tab {
+         width: 100%;
+         height: 30px;
+         line-height: 30px;
+         font-size: 12px;
+         padding: 0 15px;
+    }
+     .toplevel_page_wc_referral .tablenav.bottom .displaying-num{
+         top:-5px!important;
+    }
+     .toplevel_page_wc_referral .tablenav.bottom .displaying-num + .pagination-links{
+         margin-top:10px;
+    }
+     .wmc_referral_table_shadow .column-action input.button {
+         font-size: 13px;
+         line-height: 1;
+         min-height: 30px;
+    }
+     tr.wmc-optional.wmc_advsetting_credit td {
+         flex-wrap: wrap;
+    }
+     .wmc-advSettings .wmc-level-table td label, .wmc-advSettings .wmc-level-table th label {
+         font-size: 14px;
+    }
+}
+/* end:767*/
+ @media(max-width:782px){
+     .wmc_referral_table_shadow.wmc_banner_section tbody .row-actions{
+         display: inline-block;
+    }
+     .toplevel_page_wc_referral .wp-list-table tbody tr:nth-child(odd).is-expanded {
+         background-color: #fbfbfb!important;
+    }
+     .toplevel_page_wc_referral .wp-list-table tbody tr:nth-child(even).is-expanded {
+         background-color: #f5f5f5!important;
+    }
+     .wmc_referral_table_shadow .wp-list-table .toggle-row {
+         right: 0px;
+         top: 0px;
+         width: 100%;
+         height: 35px;
+    }
+     .wmc_referral_table_shadow .wp-list-table .toggle-row:before {
+         top: 5px;
+         left:auto;
+         right: 10px;
+    }
+     .toplevel_page_wc_referral .wp-list-table .amount, #referral_user_form .no_of_followers {
+         text-align: left;
+    }
+     #referral_user_form .view_hierarchie a.view_hierarchie{
+         margin-left:0;
+    }
+     .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary)::before{
+         font-weight:600;
+    }
+     .wmc_referral_table_shadow table td.column-primary{
+         font-weight:600;
+    }
+     .wp-list-table tr:not(.inline-edit-row):not(.no-items) td.column-primary ~ td:not(.check-column) {
+         padding-left:45%;
+    }
+	 
+	 .wmc_referral_table_shadow #frm_user_credit_reports .wp-list-table th.column-no,
+	 .wmc_referral_table_shadow #frm_usercredits .wp-list-table th.column-no{
+		 display:none;
+	 }
+	 .wmc_referral_table_shadow #frm_user_credit_reports .wp-list-table #display_name, 
+	  .wmc_referral_table_shadow #frm_user_credit_reports .wp-list-table .column-display_name, 
+	 .wmc_referral_table_shadow #frm_usercredits .wp-list-table #display_name,
+	 .wmc_referral_table_shadow #frm_usercredits .wp-list-table .column-display_name {
+    display: block;
+    width: 100%;
+}
+     .wmc_referral_table_shadow #frm_user_credit_reports .wp-list-table td.column-no,
+	 .wmc_referral_table_shadow #frm_usercredits .wp-list-table td.column-no {
+         font-size: 0;
+         display: block;
+         z-index: 2;
+         position: absolute;
+         width: 94% !important;
+         left: 3%;
+         right: 0%;
+         padding: 0;
+         height: 35px;
+         box-sizing: border-box;
+    }
+     .wmc_referral_table_shadow #frm_user_credit_reports .wp-list-table td.column-display_name, 
+	 .wmc_referral_table_shadow #frm_usercredits .wp-list-table td.column-display_name {
+         display: block;
+         z-index: 0;
+         position: relative;
+         padding: 0 10px;
+         height: 35px;
+         line-height: 35px;
+         font-weight: 600;
+    }
+     .wmc_referral_table_shadow #frm_user_credit_reports .wp-list-table td.column-display_name:before, .wmc_referral_table_shadow #frm_usercredits .wp-list-table td.column-display_name:before {
+         display:none;
+    }
+}
+ @media(min-width:783px){
+     .wmc_referral_table_shadow #frm_usercredits #total_redeem_points a, .wmc_referral_table_shadow #frm_usercredits #total_credits a, .wmc_referral_table_shadow #frm_user_credit_reports #total_redeem_points a, .wmc_referral_table_shadow #frm_user_credit_reports #total_credits a {
+         float: right;
+    }
+     .wmc_referral_table_shadow #frm_usercredits tbody .total_credits, .wmc_referral_table_shadow #frm_usercredits tbody .total_redeem_points, .wmc_referral_table_shadow #frm_user_credit_reports tbody .total_credits, .wmc_referral_table_shadow #frm_user_credit_reports tbody .total_redeem_points{
+         text-align: right;
+         padding-right:20px;
+    }
+     .wmc_referral_table_shadow #frm_usercredits #action {
+         text-align: right;
+         padding-right:20px;
+    }
+     .wmc_referral_table_shadow #frm_usercredits tbody .column-action > div{
+         float: right;
+    }
+     form#frm_usercredits td.action div input {
+         margin-right: 0px;
+    }
+     #point_logs_id thead #redeems a, #point_logs_id thead #credits a{
+         float: right;
+    }
+     #point_logs_id thead #credits a{
+         padding-right: 20px;
+    }
+}
+/* end:783*/
+ @media(min-width:768px) and (max-width:991px){
+     .wmc_referral_table_shadow #referral_user_form .tablenav .actions input.wmc_search_by_name, .wmc_referral_table_shadow #referral_user_form .tablenav .actions input.search_email{
+         max-width: 20%;
+         width: 142px;
+    }
+     .wmc_referral_table_shadow #referral_user_form .tablenav input.button{
+         margin-top:20px!important;
+    }
+     .toplevel_page_wc_referral .wmc_referral_table_shadow {
+         padding: 30px 20px 20px 20px;
+    }
+     .toplevel_page_wc_referral .tablenav .tablenav-pages .button, .tablenav .tablenav-pages .tablenav-pages-navspan, .toplevel_page_wc_referral .tablenav-pages .pagination-links .current-page{
+         min-width: 25px;
+         min-height:25px;
+         padding: 2px 2px;
+    }
+     .toplevel_page_wc_referral .tablenav-pages .pagination-links .current-page .toplevel_page_wc_referral .tablenav-pages .pagination-links {
+         font-size: 13px;
+    }
+     .toplevel_page_wc_referral p.search-box input, .wmc_referral_table_shadow .tablenav .actions input, .wmc_referral_table_shadow .tablenav .actions select, .toplevel_page_wc_referral p.search-box .button, .wmc_referral_table_shadow .tablenav .actions .button {
+         font-size:13px;
+    }
+     .wmc-email-template .mdl-tabs__tab-bar .mdl-tabs__tab {
+         width: 170px;
+         height: 35px;
+         line-height: 35px;
+    }
+     .wmc_referral_table_shadow #frm_user_credit_reports .tablenav .actions input{
+         max-width: 160px;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section p.search-box {
+         display: block;
+         float: none;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .wp-heading-inline + .page-title-action{
+         position: absolute;
+         right: 0;
+         top: 67px;
+         margin-right:0;
+    }
+     tr.wmc-optional.wmc_advsetting_credit td fieldset:first-child{
+         margin-right:20px;
+    }
+}
+/* end:768-991*/
+ @media(max-width:991px){
+     .wmc_referral_table_shadow .tablenav-pages .pagination-links{
+         float:right;
+    }
+     .wmc_referral_table_shadow p.search-box{
+         position:inherit!important;
+         bottom: auto!important;
+         width: auto!important;
+         height: auto!important;
+         margin-bottom:0 !important;
+    }
+     .wmc-email-template .mdl-tabs__panel label {
+         font-size: 13px;
+    }
+     .wmc-email-template .mdl-tabs__panel input {
+         margin-bottom: 20px;
+         min-height: 30px;
+         font-size: 13px;
+         margin-top:5px !important;
+    }
+     .tablenav.bottom .displaying-num {
+         position: absolute;
+         right: 0;
+         top: 5px;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .subsubsub {
+         min-height: 30px;
+         padding: 4px 15px;
+         font-size: 13px;
+    }
+     .wmc_referral_table_shadow.wmc_banner_section .wrap{
+         margin-right:0;
+    }
+     .wmc-advSettings .wmc-level-table td {
+         padding-left: 0px;
+    }
+     .wmc-advSettings .form-table th, .wmc-advSettings .form-table td {
+         padding: 15px 0;
+    }
+}
+/* end:991*/
+ @media(min-width:768px) and (max-width:1199px){
+     #referral_program_statistics > div {
+         border-radius: 6px;
+         margin-right: 2.5%;
+         padding: 10px;
+    }
+     #referral_program_statistics .icon {
+         width: 40px;
+         height: 40px;
+         border-radius: 6px;
+         margin-right: 10px;
+    }
+     #referral_program_statistics .icon:after {
+         background-size: 80px;
+    }
+     #referral_program_statistics .number {
+         font-size: 22px;
+    }
+     #referral_program_statistics .text {
+         font-size: 12px;
+         margin-top:5px;
+         display: flex;
+    }
+     #referral_program_statistics .total_users_panel .icon:after {
+         background-position:-7px -3px;
+    }
+     #referral_program_statistics .total_referral_panel .icon:after {
+         background-position: -7px -39px;
+    }
+     #referral_program_statistics .total_earn_panel .icon:after {
+         background-position: -7px -79px!important;
+    }
+     #referral_program_statistics .total_redeem_panel .icon:after {
+         background-position: -7px -118px;
+    }
+     .toplevel_page_wc_referral .wrap h1 {
+         padding: 20px 0;
+    }
+     div#referral_program_statistics:after {
+         height: 100px;
+         top: -66px;
+    }
+     .wmc_referral_table_shadow .tablenav .actions .wmc_search_by_date + .wmc_search_by_date {
+         margin-right: 0;
+    }
+     .wmc_referral_table_shadow #referral_user_form .tablenav #doaction{
+         margin-left:auto;
+    }
+     .wmc-advSettings .wmc-level-table td {
+         padding-left: 0px;
+    }
+}
+ @media(min-width:992px) and (max-width:1199px){
+     .toplevel_page_wc_referral p.search-box input, .wmc_referral_table_shadow .tablenav .actions input, .wmc_referral_table_shadow .tablenav .actions select{
+         max-width: 180px;
+         width: 180px;
+    }
+     .wmc_referral_table_shadow #referral_user_form .tablenav input.button{
+         margin-top:20px!important;
+    }
+     tr.wmc-optional.wmc_advsetting_credit td fieldset{
+         width:100%;
+    }
+     .wmc_referral_table_shadow .column-action .button.btn_remove_credit {
+         margin-top: 8px;
+    }
+}
+ @media (max-width:1199px){
+     .wmc_referral_table_shadow.wmc_banner_section table td img{
+         width:100%;
+         height:auto;
+    }
+}
+ @media(min-width:1200px) and (max-width:1285px){
+     #referral_program_statistics > div{
+         padding:15px;
+    }
+     #referral_program_statistics .icon{
+         margin-right:15px;
+    }
+     #referral_program_statistics .text {
+         font-size: 13px;
+    }
+     .toplevel_page_wc_referral p.search-box input, .wmc_referral_table_shadow .tablenav .actions input, .wmc_referral_table_shadow .tablenav .actions select{
+         width:160px;
+    }
+}

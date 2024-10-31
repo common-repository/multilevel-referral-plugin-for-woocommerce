@@ -1,0 +1,862 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-multilevel-commision\n"
+"POT-Creation-Date: 2016-11-21 17:31+0530\n"
+"PO-Revision-Date: 2016-11-21 17:49+0530\n"
+"Last-Translator: Sagar Shinde <sagar@prismitsystems.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/admin/metabox-product.php:32
+msgid "Exclude Product from Credit"
+msgstr "Exclure un produit du crédit"
+
+#: classes/admin/referral.php:38 classes/admin/settings-general.php:76
+#: classes/referral-users.php:843 classes/referral-users.php:845
+msgid "Referral"
+msgstr "Parrainage"
+
+#: classes/admin/settings-general.php:98
+msgid "Select Page"
+msgstr "Sélectionnez la page"
+
+#: classes/admin/settings-general.php:106
+msgid "Activate your Copy"
+msgstr "Activer votre copie"
+
+#: classes/admin/settings-general.php:108
+msgid "Purchase Code"
+msgstr "Code d'achat"
+
+#: classes/admin/settings-general.php:109
+msgid "Enter Purchase Code."
+msgstr "Entrez le code d'achat."
+
+#: classes/admin/settings-general.php:119
+msgid "Referral Options"
+msgstr "Options de Parrainage"
+
+#: classes/admin/settings-general.php:121
+msgid "Global Store Credit (%)"
+msgstr "Montant du crédit global (%)"
+
+#: classes/admin/settings-general.php:122
+msgid ""
+"1. The defined credit points will be deposited in affiliate users account."
+"<br>2. For more information about \"How credit system works?\" visit <a href="
+"\"http://referral.prismitworks.com/#ffs-tabbed-13\" target=\"_blank\">here</"
+"a>"
+msgstr ""
+"1.Le montant de crédit défini sera déposés dans le compte des parrains. <br> "
+"2. Pour plus d'informations sur  \"Comment fonctionne le système de crédit? "
+"\" visitez <a href=\"http://referral.prismitworks.com/#ffs-tabbed-13\" "
+"target=\"_blank\"> ici </ a >"
+
+#: classes/admin/settings-general.php:129
+msgid "Welcome Credit"
+msgstr "Bienvenue crédit"
+
+#: classes/admin/settings-general.php:130
+msgid ""
+"1. All Users : All users including the existing ones will be presented with "
+"Welcome Credits on their first purchase."
+msgstr ""
+"1. Tous les utilisateurs: Tous les utilisateurs, y compris ceux qui existent "
+"déjà seront présentés avec Bienvenue Crédits sur leur premier achat."
+
+#: classes/admin/settings-general.php:130
+msgid ""
+"2. New Users : Only the newly registered users will be presented with "
+"Welcome Credits on their first purchase. Existing users are not entitled for "
+"this benefit."
+msgstr ""
+"2. Nouveaux utilisateurs: Seuls les nouveaux utilisateurs enregistrés seront "
+"présentés avec Bienvenue Crédits sur leur premier achat. Les utilisateurs "
+"existants ne sont pas habilités à cet avantage."
+
+#: classes/admin/settings-general.php:137
+msgid "All Users"
+msgstr "Tous les utilisateurs"
+
+#: classes/admin/settings-general.php:138
+msgid "New Users"
+msgstr "Nouveaux utilisateurs"
+
+#: classes/admin/settings-general.php:142
+msgid "Credit validity by period"
+msgstr "Validité du crédit par période"
+
+#: classes/admin/settings-general.php:143
+msgid "This sets the number of months/years for expire credits."
+msgstr "Ceci définit le nombre de mois / années pour l'expiration du crédit."
+
+#: classes/admin/settings-general.php:159
+msgid "Select expiry"
+msgstr "Sélectionnez expiration"
+
+#: classes/admin/settings-general.php:160
+msgid "Month"
+msgstr "Mois"
+
+#: classes/admin/settings-general.php:161
+msgid "Year"
+msgstr "An"
+
+#: classes/admin/settings-general.php:166
+msgid "Notification Mail Time"
+msgstr "Timing du courrier de notification"
+
+#: classes/admin/settings-general.php:167
+msgid ""
+"This sets the number of days for send notification mail for expire credits."
+msgstr ""
+"Ceci définit le nombre de jours pour la notification d'envoi électronique "
+"pour le crédit périmé."
+
+#: classes/admin/settings-general.php:175
+msgid "Monthly max credit limit"
+msgstr "limite max de crédit gagnable par mois"
+
+#: classes/admin/settings-general.php:176
+msgid ""
+"The credit points will not be credited more than defined limit in the period "
+"of one month"
+msgstr "Le crédit ne sera pas crédité de plus de la limite définie sur un mois"
+
+#: classes/admin/settings-general.php:184
+msgid "Max Redemption (%)"
+msgstr "Utilisation maximum (%)"
+
+#: classes/admin/settings-general.php:185
+msgid ""
+"You can define the limit for redemption. If you set 50% then user can not be "
+"redeem points more than 50% of product price."
+msgstr ""
+"Vous pouvez définir la limite pour l'utilisation du crédit. Si vous "
+"définissez 50%, l'utilisateur ne peut pas utiliser son crédit à hauteur de "
+"plus de 50% du prix du produit."
+
+#: classes/admin/settings-general.php:193
+#: classes/admin/settings-general.php:200
+msgid "Exclude products"
+msgstr "Exclure les produits"
+
+#: classes/admin/settings-general.php:194
+msgid ""
+"Select the product which you want to be exclude from this referral program"
+msgstr ""
+"Sélectionnez le produit que vous souhaitez exclure du programme de parrainage"
+
+#: classes/admin/settings-general.php:208
+msgid "Terms And Conditions Page"
+msgstr "Page des conditions"
+
+#: classes/admin/settings-general.php:209
+msgid "Select the terms and condition page"
+msgstr "Sélectionnez la page pour les conditions du programme"
+
+#: classes/admin/settings-general.php:218
+msgid "Auto Join"
+msgstr "Adhésion automatique"
+
+#: classes/admin/settings-general.php:219
+msgid ""
+"Select \"Yes\" if you want to register users automatically to referral "
+"program"
+msgstr ""
+"Sélectionnez  \"Oui \" si vous souhaitez enregistrer automatiquement les "
+"utilisateurs dans le programme de parrainage"
+
+#: classes/admin/settings-general.php:226
+msgid "No"
+msgstr "Non"
+
+#: classes/admin/settings-general.php:227
+msgid "Yes"
+msgstr "Oui"
+
+#: classes/admin/settings-general.php:231
+msgid "Category Credit Preference"
+msgstr "Préférence Catégorie de crédit"
+
+#: classes/admin/settings-general.php:232
+msgid ""
+"In case of multiple category selected for product, this setting will decide "
+"which credit percentage should be used. If \"Highest\" selected then highest "
+"percentage between all the categories will be considered, if \"Lowest\" "
+"selected lowest percentage will be considered"
+msgstr ""
+"Dans le cas de catégories multiples sélectionnée pour les produits, ce "
+"paramètre décidera quel pourcentage de crédit devrait être utilisé. Si  \"le "
+"plus élevé \" est sélectionné, le pourcentage le plus élevé entre toutes les "
+"catégories sera considéré ; le pourcentage le plus faible sera considéré si  "
+"\"le plus bas \" est sélectionné"
+
+#: classes/admin/settings-general.php:239
+msgid "Lowest"
+msgstr "Le plus bas"
+
+#: classes/admin/settings-general.php:240
+msgid "Highest"
+msgstr "Le plus élevé"
+
+#: classes/admin/settings-general.php:257
+#: classes/admin/settings-general.php:268
+#: classes/admin/settings-general.php:330
+msgid "Affiliate Credit (%)"
+msgstr "Crédit parrain (%)"
+
+#: classes/admin/settings-general.php:259
+#: classes/admin/settings-general.php:271
+msgid ""
+"Enter a credit percentage, this percentage will apply for all the products "
+"in this category"
+msgstr ""
+"Entrez un pourcentage de crédit, ce pourcentage sera applicable pour tous "
+"les produits dans cette catégorie"
+
+#: classes/admin/settings-general.php:321
+msgid "Multilevel Referral"
+msgstr "parrainage multi-niveaux"
+
+#: classes/admin/settings-general.php:326
+msgid "Multilevel Referral Plugin Settings"
+msgstr "Paramètres plugin Parrainage multi-niveaux"
+
+#: classes/admin/settings-general.php:333
+msgid ""
+"1. The defined credit points will be deposited in affiliate users account, "
+"when user purchase this product.<br>2. For more information about \"How "
+"credit system works?\" visit <a href=\"http://referral.prismitworks.com/#ffs-"
+"tabbed-13\" target=\"_blank\">here</a>"
+msgstr ""
+"1. Le crédit défini sera déposé sur le compte d'utilisateurs parrains, "
+"lorsque qu'un utilisateur achète ce produit. <br> 2. Pour plus "
+"d'informations sur  \"Comment fonctionne le système de crédit? \" Visiter <a "
+"href=\"http://referral.prismitworks.com/#ffs-tabbed-13\" target=\"_blank\"> "
+"ici </ a >"
+
+#: classes/admin/table-credit_logs.php:25
+#: classes/admin/table-credit_logs.php:68
+#: classes/admin/table-orderwise_credits.php:26
+#: classes/admin/table-orderwise_credits.php:69 classes/referral-users.php:554
+#: views/front/myaccount.php:50
+msgid "Order"
+msgstr "Commande"
+
+#: classes/admin/table-credit_logs.php:26
+#: classes/admin/table-orderwise_credits.php:27
+msgid "Orders"
+msgstr "Commandes"
+
+#: classes/admin/table-credit_logs.php:36
+#: classes/admin/table-orderwise_credits.php:38
+msgid "No orders avaliable."
+msgstr "Pas de commande disponible."
+
+#: classes/admin/table-credit_logs.php:69 classes/admin/table-users.php:96
+#: classes/referral-users.php:464
+msgid "Name"
+msgstr "Nom"
+
+#: classes/admin/table-credit_logs.php:70
+#: classes/admin/table-orderwise_credits.php:71
+#: views/admin/referral-header.php:37
+msgid "Earned Credits"
+msgstr "Crédit gagné"
+
+#: classes/admin/table-credit_logs.php:71 views/admin/referral-header.php:44
+msgid "Redeemed Credits"
+msgstr "Crédit utilisé"
+
+#: classes/admin/table-orderwise_credits.php:70
+msgid "Customer Name"
+msgstr "Nom du client"
+
+#: classes/admin/table-users.php:14
+msgid "User"
+msgstr "Utilisateur"
+
+#: classes/admin/table-users.php:15
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: classes/admin/table-users.php:36
+msgid "No users found, dude."
+msgstr "Aucun utilisateur trouvé."
+
+#: classes/admin/table-users.php:69
+msgid "Search By Name"
+msgstr "Rechercher par nom"
+
+#: classes/admin/table-users.php:70
+msgid "Search By Email"
+msgstr "Recherche par email"
+
+#: classes/admin/table-users.php:71
+msgid "Date Range"
+msgstr "Dates"
+
+#: classes/admin/table-users.php:74 views/front/store-credits-notice.php:8
+msgid "Apply"
+msgstr "Appliquer"
+
+#: classes/admin/table-users.php:75
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: classes/admin/table-users.php:97
+msgid "Email"
+msgstr "Email"
+
+#: classes/admin/table-users.php:98 classes/referral-users.php:464
+#: views/front/join-form.php:9 views/front/register_form_end_fields.php:12
+#: views/front/register_form_end_fields.php:35
+msgid "Referral Code"
+msgstr "Code de parrainage"
+
+#: classes/admin/table-users.php:99 classes/referral-users.php:464
+#: views/admin/users.php:11
+msgid "Join Date"
+msgstr "date d'inscription"
+
+#: classes/admin/table-users.php:100
+msgid "No of Followers"
+msgstr "Nombre de filleuls"
+
+#: classes/admin/table-users.php:101
+msgid "Total Credits"
+msgstr "Crédit total"
+
+#: classes/admin/table-users.php:102
+msgid "Hierarchy"
+msgstr "Hiérarchie"
+
+#: classes/admin/table-users.php:109
+msgid "Deactive Date"
+msgstr "date de désactivation"
+
+#: classes/admin/table-users.php:294
+msgid "Edit"
+msgstr "modifier"
+
+#: classes/admin/table-users.php:317
+#, php-format
+msgid "Select %s"
+msgstr "Sélectionnez %s"
+
+#: classes/admin/table-users.php:394
+msgid "View hierarchy"
+msgstr "Voir la hiérarchie"
+
+#: classes/admin/table-users.php:397
+msgid "Add back to referrals"
+msgstr "Rajouter aux parrainages"
+
+#: classes/referral-mail.php:149 classes/referral-mail2.php:113
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Ceci contrôle l'en-tête de la notification par courrier électronique. "
+"Laissez-la vide pour utiliser le titre par défaut: <code>% s </ code>."
+
+#: classes/referral-mail.php:160 classes/referral-mail2.php:124
+msgid "Plain text"
+msgstr "texte brut"
+
+#: classes/referral-mail.php:161 classes/referral-mail2.php:125
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/referral-mail.php:162 classes/referral-mail2.php:126
+msgid "Multipart"
+msgstr "Multipart"
+
+#: classes/referral-users.php:354 views/front/myaccount.php:7
+msgid "Invite Friends"
+msgstr "Inviter des amis"
+
+#: classes/referral-users.php:357 views/front/myaccount.php:10
+msgid "Invite your friends"
+msgstr "Invitez vos amis"
+
+#: classes/referral-users.php:358 views/front/myaccount.php:17
+msgid ""
+"You can earn more credits by inviting more people to join this referral "
+"program. You can add comma separated list of emails below ..."
+msgstr ""
+"Vous pouvez gagner plus de crédits en invitant des amis à se joindre à ce "
+"programme de parrainage. Vous pouvez rentrer une liste d'emails, séparés par "
+"des virgules, dans le champs ci-dessous."
+
+#: classes/referral-users.php:366
+msgid "Invite"
+msgstr "Invitez"
+
+#: classes/referral-users.php:386
+msgid "Share on Social Media"
+msgstr "Partager sur les médias sociaux"
+
+#: classes/referral-users.php:387
+msgid "Select promotional banner from the following to share on social media"
+msgstr ""
+"Sélectionnez la bannière publicitaire à partir de ce qui suit pour partager "
+"sur les médias sociaux"
+
+#: classes/referral-users.php:391
+msgid "Referral Code : "
+msgstr "Code de Parrainage :"
+
+#: classes/referral-users.php:415 classes/referral-users.php:443
+msgid "Visit"
+msgstr "Visite"
+
+#: classes/referral-users.php:462
+msgid "My Affiliates"
+msgstr "Mes Affiliés"
+
+#: classes/referral-users.php:464
+msgid "Show/Hide"
+msgstr "Montrer/Cacher"
+
+#: classes/referral-users.php:464
+msgid "Affiliates"
+msgstr "Affiliés"
+
+#: classes/referral-users.php:468
+msgid ""
+"Could not find any affiliate users. Please invite more friends and "
+"colleagues to start earning credit points."
+msgstr ""
+"Impossible de trouver tous les utilisateurs d'affiliation. S'il vous plaît "
+"inviter d'autres amis et collègues pour commencer à gagner des points de "
+"crédit."
+
+#: classes/referral-users.php:470
+msgid "Affiliates : "
+msgstr "Affiliés :"
+
+#: classes/referral-users.php:470
+msgid ""
+"This particular column shows the number of Affiliates for the corresponding "
+"affiliate member."
+msgstr ""
+"Cette colonne particulière indique le nombre des affiliés pour le membre "
+"affilié correspondant."
+
+#: classes/referral-users.php:506
+msgid "View Hirarchy"
+msgstr "Voir la hiérarchie"
+
+#: classes/referral-users.php:537 views/front/myaccount.php:32
+msgid "Referral Program Details"
+msgstr "Détails du programme de parrainage"
+
+#: classes/referral-users.php:540 views/front/myaccount.php:35
+msgid "Your Referral Code"
+msgstr "Votre code de parrainage"
+
+#: classes/referral-users.php:541 views/front/myaccount.php:36
+msgid "Store Credits"
+msgstr "Crédit"
+
+#: classes/referral-users.php:542 views/front/myaccount.php:37
+msgid "Total Followers"
+msgstr "Nombre de filleuls"
+
+#: classes/referral-users.php:555 views/front/myaccount.php:51
+msgid "Date"
+msgstr "Date"
+
+#: classes/referral-users.php:556 views/front/myaccount.php:52
+msgid "Note"
+msgstr "Remarque"
+
+#: classes/referral-users.php:565 classes/referral-users.php:576
+#: views/front/myaccount.php:64 views/front/myaccount.php:76
+#, php-format
+msgid "%s Store credit is refund for order %s."
+msgstr "%s de crédit pour le remboursement de la commande %s."
+
+#: classes/referral-users.php:567 views/front/myaccount.php:66
+#, php-format
+msgid "%s Store credit is earned from order %s."
+msgstr "%s de crédit gagné avec la commande %s."
+
+#: classes/referral-users.php:570 views/front/myaccount.php:69
+#, php-format
+msgid "%s Store credit is earned through referral user ( %s order %s )  "
+msgstr "%s de crédit gagné grâce à un filleul ( %s, commande %s )  "
+
+#: classes/referral-users.php:579 views/front/myaccount.php:79
+#, php-format
+msgid "%s Store credit is used in order %s."
+msgstr "%s de crédit utilisé pour %s."
+
+#: classes/referral-users.php:581 views/front/myaccount.php:81
+#, php-format
+msgid "%s Store credit is expired."
+msgstr "%s de crédit ont expiré."
+
+#: classes/referral-users.php:613
+msgid "Please enter a valid E-mail address."
+msgstr "Entrez une adresse email valide."
+
+#: classes/referral-users.php:645
+msgid ""
+"The user is already part of our referral program, please try with different "
+"E-mail address."
+msgstr ""
+"L'utilisateur fait déjà partie du programme de parrainage. Essayez avec "
+"d'autres adresses email."
+
+#: classes/referral-users.php:649
+msgid "E-mail address is invalid."
+msgstr "Adresse email invalide."
+
+#: classes/referral-users.php:654
+msgid "We can not send invitation to below listed E-mail addresses."
+msgstr ""
+"Nous ne pouvons pas envoyer une invitation aux adresses email indiquées ci-"
+"dessous."
+
+#: classes/referral-users.php:657
+msgid "Your invitations are sent succesfully!"
+msgstr "Vos invitations ont été envoyées avec succès!"
+
+#: classes/referral-users.php:661 classes/referral-users.php:685
+#: classes/woocommerce-order.php:63 classes/woocommerce-order.php:202
+#: classes/woocommerce-order.php:346 classes/woocommerce-order.php:373
+msgid "Error"
+msgstr "Erreur"
+
+#: classes/referral-users.php:681
+msgid "Thanks for joining the referral program"
+msgstr "Merci d'avoir rejoint le programme de parrainage !"
+
+#: classes/referral-users.php:700
+msgid "Please enter the First name."
+msgstr "Entrez votre prénom."
+
+#: classes/referral-users.php:703
+msgid "Please enter the Last name."
+msgstr "Entrez votre nom."
+
+#: classes/referral-users.php:708
+msgid "You must have to add referral code to join referral program."
+msgstr ""
+"Vous devez avoir un code de parrainage à ajouter pour rejoindre le programme."
+
+#: classes/referral-users.php:712
+msgid "E-mail address is invalid"
+msgstr "Adresse email invalide"
+
+#: classes/referral-users.php:718
+msgid "There is no such referral code exist<strong>("
+msgstr "Ce code de parrainage n'existe pas <strong> ("
+
+#: classes/referral-users.php:729
+msgid "This referral E-mail <strong>("
+msgstr "Cet email de parrainage <strong> ("
+
+#: classes/referral-users.php:734
+msgid "Please accept referral Program terms and conditions"
+msgstr "Accepter les conditions du programme de parrainage"
+
+#: classes/woocommerce-multilevel-referral.php:345
+msgid "This is the promotional banner"
+msgstr "Ceci est la bannière promotionnelle"
+
+#: classes/woocommerce-multilevel-referral.php:412
+msgid "All Banners"
+msgstr "Toutes les bannières"
+
+#: classes/woocommerce-order.php:56
+msgid ""
+"Please make sure that amount should be equal or less than the maximum limit."
+msgstr ""
+"Assurer-vous que le montant soit égal ou inférieur à la limite maximale."
+
+#: classes/woocommerce-order.php:60
+msgid "Store credits successfully applied"
+msgstr "Crédits appliqué avec succès"
+
+#: classes/woocommerce-order.php:190
+#, php-format
+msgid "You have earned %s store points."
+msgstr "Vous avez gagné %s de crédit."
+
+#: classes/woocommerce-order.php:392
+#, php-format
+msgid "You can not use Store credit in following products: %s"
+msgstr ""
+"Vous ne pouvez pas utiliser votre crédit pour les produits suivants: %s"
+
+#: classes/woocommerce-order.php:419
+msgid "Store Credit"
+msgstr "Crédit"
+
+#: classes/woocommerce-order.php:487
+msgid "Store credits is removed becuase of cart total is same as discount."
+msgstr ""
+"Le crédit est retiré car le total du panier est le même que la réduction."
+
+#: classes/woocommerce-order.php:526
+msgid "Remove"
+msgstr "Retirer"
+
+#: views/admin/credit_logs.php:2
+msgid "Credit logs"
+msgstr "Log du crédit"
+
+#: views/admin/email_templates.php:2 views/admin/referral-header.php:7
+msgid "Email templates"
+msgstr "Modèles d'emails"
+
+#: views/admin/email_templates.php:16
+msgid "Joining mail for referral program"
+msgstr "Courrier d'adhésion au programme de parrainage"
+
+#: views/admin/email_templates.php:20 views/admin/email_templates.php:31
+msgid "You can use {referral_code} to replace respective referral code."
+msgstr ""
+"Vous pouvez utiliser {referral_code} pour placer le code de parrainage."
+
+#: views/admin/email_templates.php:21 views/admin/email_templates.php:32
+msgid "You can use {first_name} to replace respective user name."
+msgstr ""
+"Vous pouvez utiliser {first_name} pour placer le prénom de l'utilisateur."
+
+#: views/admin/email_templates.php:22 views/admin/email_templates.php:33
+msgid "You can use {last_name} to replace respective user name."
+msgstr "Vous pouvez utiliser  {last_name} pour placer le nom de l'utilisateur."
+
+#: views/admin/email_templates.php:27
+msgid "Invitation mail for Referral users"
+msgstr "Invitation pour les filleuls"
+
+#: views/admin/email_templates.php:34
+msgid ""
+"You can use [referral_link text=\"Click here\"] to replace respective user "
+"referral link."
+msgstr ""
+"Vous pouvez utiliser [referral_link text=\"Cliquez ici\"] pour remplacer le "
+"lien de parrainage de l'utilisateur-parrain."
+
+#: views/admin/email_templates.php:39
+msgid "Expire credit notification"
+msgstr "notification de crédit périmé"
+
+#: views/admin/email_templates.php:43
+msgid "{available_credits} - Replace respective user credits."
+msgstr "{available_credits} - placer le crédit de l'utilisateur."
+
+#: views/admin/email_templates.php:44
+msgid "{first_name} - Replace respective user name."
+msgstr "{first_name} - placer le prénom de l'utilisateur."
+
+#: views/admin/email_templates.php:45
+msgid "{last_name} - Replace respective user name."
+msgstr "{last_name} - placer le nom de l'utilisateur."
+
+#: views/admin/email_templates.php:46
+msgid "{expire_date} - Replace respective expiry date of user credits."
+msgstr ""
+"{expire_date} - placer la date d'expiration du crédit de l'utilisateur."
+
+#: views/admin/email_templates.php:47
+msgid "{validity_period} - Replace respective store credit validity."
+msgstr "{validity_period} - placer la validité du crédit."
+
+#: views/admin/email_templates.php:48
+msgid "{today_date} - Replace respective current date."
+msgstr "{today_date} - placer la date du jour."
+
+#: views/admin/email_templates.php:49
+msgid "{expire_month} - Replace respective credit expired month."
+msgstr "{expire_month} - placer le mois d'expiration du crédit."
+
+#: views/admin/email_templates.php:50
+msgid "{expire_credits} - Replace respective expired credits."
+msgstr "{expire_credits} - placer le crédit périmé."
+
+#: views/admin/email_templates.php:55
+msgid "Save template"
+msgstr "Enregistrer le modèle"
+
+#: views/admin/orderwise_credits.php:2
+msgid "Orderwise credits"
+msgstr "Crédit par commande"
+
+#: views/admin/referral-header.php:4 views/admin/referral-users.php:2
+msgid "Referral users"
+msgstr "Filleuls"
+
+#: views/admin/referral-header.php:5
+msgid "Orderwise user credits"
+msgstr "Crédit d'utilisateur par commande"
+
+#: views/admin/referral-header.php:6
+msgid "Point logs"
+msgstr "Log du crédit"
+
+#: views/admin/referral-header.php:8
+msgid "Banners"
+msgstr "Bannières"
+
+#: views/admin/referral-header.php:10
+msgid "Deleted Referrals"
+msgstr "Parrainages supprimés"
+
+#: views/admin/referral-header.php:16
+msgid "WooCommerce Multilevel Referral Plugin"
+msgstr "WooCommerce Multilevel Referral Plugin"
+
+#: views/admin/referral-header.php:23
+msgid "Total Users"
+msgstr "Nombre d'utilisateurs"
+
+#: views/admin/referral-header.php:30
+msgid "Referrals"
+msgstr "Parrainages"
+
+#: views/admin/referral-users.php:12
+msgid "is successfully activated"
+msgstr "Crédits appliqué avec succès"
+
+#: views/admin/users.php:6
+msgid "Referral Program Statistics"
+msgstr "Statistiques du programme de parrainage"
+
+#: views/admin/users.php:14
+msgid "Joining date of referral user"
+msgstr "Date d'adhésion du filleul"
+
+#: views/admin/users.php:18
+msgid "Referral Discount"
+msgstr "Remise de parrainage"
+
+#: views/admin/users.php:21
+msgid "Status of referral user for discount that taken or not?"
+msgstr "Statut de l'utilisateur de référence pour actualisation prise ou non?"
+
+#: views/admin/users.php:25
+msgid "Referral code"
+msgstr "Code de parrainage"
+
+#: views/admin/users.php:28
+msgid "Auto generated referral code for referral users"
+msgstr "Auto générer le code de parrainage pour les filleuls"
+
+#: views/front/join-form.php:1
+msgid "Join Referral Program"
+msgstr "Inscrivez-vous au programme de parrainage"
+
+#: views/front/join-form.php:5 views/front/register_form_end_fields.php:22
+msgid "I have the referral code and want to join referral program."
+msgstr "J'ai un code de parrainage et veux participer au programme ."
+
+#: views/front/join-form.php:6 views/front/register_form_end_fields.php:23
+msgid ""
+"I don't have referral code or I lost it. But I wish to join referral program."
+msgstr ""
+"Je n'ai pas de code de parrainge ou je l'ai perdu. Mais je tiens à "
+"participer au programme."
+
+#: views/front/join-form.php:11 views/front/register_form_end_fields.php:37
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: views/front/join-form.php:18 views/front/register_form_end_fields.php:27
+msgid "I've read and agree to the referral program "
+msgstr "J'ai lu et accepte les "
+
+#: views/front/join-form.php:19
+msgid "terms and conditions"
+msgstr "conditions du programme"
+
+#: views/front/join-form.php:23
+msgid "Join"
+msgstr "S'inscrire"
+
+#: views/front/myaccount.php:25
+msgid "Send Invitations"
+msgstr "Envoyer des invitations"
+
+#: views/front/register_form_end_fields.php:13
+msgid "Add referral code if you have"
+msgstr "Ajouter un code de parrainage si vous en avez un"
+
+#: views/front/register_form_end_fields.php:16
+msgid ""
+"By registering here, you agree to the terms, conditions, refunds policy, and "
+"privacy statement"
+msgstr ""
+"En vous inscrivant ici, vous acceptez les termes, conditions, politique de "
+"remboursement, et la déclaration de confidentialité du programme de "
+"parrainage."
+
+#: views/front/register_form_end_fields.php:24
+msgid "No, I don't want to be a part of referral program at this time."
+msgstr ""
+"Non, je ne veux pas faire partie du programme de parrainage pour l'instant."
+
+#: views/front/register_form_end_fields.php:28
+msgid "terms & conditions"
+msgstr "conditions du programme"
+
+#: views/front/register_form_start_fields.php:2
+msgid "First name"
+msgstr "Prénom"
+
+#: views/front/register_form_start_fields.php:7
+msgid "Last name"
+msgstr "Nom de famille"
+
+#: views/front/store-credits-notice.php:2
+#, php-format
+msgid "You have %s store credits."
+msgstr "Vous avez %s de crédit disponible."
+
+#: views/front/store-credits-notice.php:3
+msgid "Redeem now."
+msgstr "Utiliser maintenant"
+
+#: views/front/store-credits-notice.php:9
+#, php-format
+msgid "You can use max %s as store credit."
+msgstr "Vous pouvez utiliser un maximum de %s de crédit."
+
+#: views/requirements-error.php:2
+msgid ""
+"error: Your environment does not meet all of the system requirements listed "
+"below."
+msgstr ""
+"Erreur: Votre environnement ne répond pas à toutes les exigences système ci-"
+"dessous."
+
+#: views/requirements-error.php:6 views/requirements-error.php:10
+msgid "You're running version "
+msgstr "Vous utilisez la version"
+
+#: views/requirements-error.php:16
+msgid ""
+"If you need to upgrade your version of PHP you can ask your hosting company "
+"for assistance, and if you need help upgrading WordPress you can refer to"
+msgstr ""
+"Si vous devez mettre à niveau votre version de PHP, vous pouvez demander à "
+"votre société d'hébergement pour obtenir de l'aide, Et si vous avez besoin "
+"d'aide pour mettre à jour WordPress, vous pouvez vous référer à"
+
+#: views/requirements-error.php:16
+msgid "the "
+msgstr "la"

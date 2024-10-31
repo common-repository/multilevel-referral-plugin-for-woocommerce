@@ -1,0 +1,372 @@
+[2.27] 2024-07-19
+### Feature - admin can add users to the referral program from the backend.
+### Update - added pagination to the credit log points listing on the affiliates page.
+
+[2.26] 2024-06-19
+### Fix - set default credit for fixed advance setting calculation.
+### Update - add support for high-performance order storage.
+### Update - add support to set custom affiliate percentages for specific users.
+
+[2.25] 2024-02-20
+### Fix - fix JS issue on registration page
+### Update - Update plugin license system
+
+[2.24] 2024-01-31
+### Fix - fix redeem credit issue
+
+[2.23] 2023-07-06
+### Update - Update plugin license system
+
+[2.22] 2022-12-16
+### Update - Change plugin license system
+### Fix - Blank value issue
+
+[2.21] 2022-07-13
+## Update - Save templates.
+
+[2.20] 2020-07-10
+### Update - Save referral code in a cookies for future registration.
+### Update - Remove credit section in a cart/checkout page on max redeem credit to zero.
+### Update - Allow credits up to 10,000 for fixed commission type.
+### Update - Visual issue.
+### Fix - Credit issue for fixed credit value type.
+### Fix - Facebook sharing issue
+### Fix - Validate wrong referral code from user dashboard
+### Fix - Calculation of credit and redeem blocks.
+### Fix - Allow float value in the category credit.
+
+[2.19] 2020-03-03
+### Feature - Added total volume of referees limitation.
+### Feature - Managed the referral code required functionality for the auto-join referral program.
+### Feature - Added the ability for choosing credits distribution between percentage & fixed value.
+### Feature - Allowed welcome credits on customer registration.
+### New hook wmc_referral_tab_block - The user can add new block after referral statistics block on the front end.
+### New hook wmc_registation_referral_fields - To hide referral program fields from a registered form
+### New hook wmc_withdraw_credited - That adds support for The Referral Withdrawal and The Referral Credit Manager Add-on plugins.
+### New hook wmc_withdraw_earned - That adds support for The Referral Withdrawal and The Referral Credit Manager Add-on plugins.
+### New hook wmc_additional_commission_settings - The user can add additional setting for their requirements.
+### Update - Removed commented code and regenerated language file for localisation.
+### Update - Allowed NEGATIVE Total Credits.
+### Fix - Addressed a Referral link issue on a user dashboard
+### Fix - LinkedIn sharing issue.
+### Fix - Difference of Total Available Credits in cart/checkout and referral page.
+### Fix - Removed duplicate queries.
+### Fix - Addressed a Visual issue
+### Fix - Changed image resolution to resolve social sharing issue.
+### Fix - Addressed Image cache issue for social sharing.
+
+[2.18] 2020-11-20
+### Added hooks for add additional mail templates
+### Added referral code filter in order listing page
+### Changed referral registration flow in check out page
+### Fixed auto join referral user issue
+### Fixed display credits with points 
+### Fixed warnings
+
+[2.17] 2020-09-17
+### Added a copy referraral code from dashboard
+### Added customer based bonus offers
+### Added total volume of referees
+### Added search by customer name/email to referral users panel
+### Added search by customer name/order id/referral code to orderwise user credits panel
+### Fixed multiple store credits for same order
+### Fixed typo mistake and warnings
+
+[2.16] 2020-05-23
+### Added a setting for referral users where a user will not gain any reward point without a purchase.
+### Added a setting to select products to gain reward points.
+### Fixed a mail class issue.
+### Fixed a search based issue from the Referral user tab.
+### Improved the UI layout on the front as well as on the admin panel.
+
+[2.15] 2020-05-13
+### Fixed typo mistake and warnings.
+### Added support for Binary MLM System.
+
+[2.14] 2020-02-18
+### Fixed language translation issue.
+### Changed minor backend layout.
+
+[2.13] 2019-12-04
+### Improved code for the social media sharing banners. 
+### Removed some issues. 
+
+[2.12] 2019-12-03
+### Remove bug from the admin referral listing. 
+### Increase the length of the database fields to accept large values. 
+
+[2.11] 2019-11-11
+
+### We added ability to add Referral code and link dynamically on Custom Banners. Prevously this feature was available for pre-defined banners. 
+
+### The size of Social media sharing banners has been changed to 1200px*630px. 
+
+### Store owners can design their own banners and upload. The referral code and link will be added dynamically on the banners on top and bottom respectively. Keep the 100px space on top and bottom for referral code and link.
+
+[2.10] 2019-11-05
+
+### Added shortcode support for front end my account dashboard tabs "Referral" and "My Affiliates".
+
+[wmc_my_referral_tab] : It will provide ability to invite peoples by email and social media sharing. 
+
+[wmc_my_affiliate_tab] : It will show the list of referral's of logged in user. 
+
+### Provided High resolution pre-designed banners.    
+
+[2.9] 2019-10-17
+
+### Added option to control the distribution of credit points in Recursive Credit method. Admin can set number of levels which are entitled to receive the credit points from the settings.  
+
+[2.8] 2019-09-20
+
+### Implemented AJAX technique to get followers/referral's count in the admin panel to improve the page performance.
+
+[2.7] 2019-08-13
+
+### Fixed issues related to followers count. 
+
+[2.6] 2019-08-05
+
+### Fixed Issue related to Envato API. 
+
+### Upgraded to new Envato API to validate plugin. 
+
+[2.5.1] 2019-06-25
+
+### Fixed bug in cart and checkout page related to redemption of credit point feature.
+
+[2.5] 2019-06-08
+
+### Fixed bug permalink and social media share.
+
+[2.4] 2019-05-22
+
+### Fixed bug with Auto join feature in checkout page.
+
+[2.3] 2019-05-21
+
+### Fixed bug related to "My Affiliate" tab in Dashboard.
+
+[2.2] 2019-05-17
+
+### Fixed some minor bugs from the plugin.
+
+[2.1] 2019-01-15
+
+### Fixed Issue in checkout form.
+
+### Change the order of referral program fields on checkout page. 
+
+[2.0] 2019-01-15
+
+### Level Based credit system
+
+#### Previously, the credit percentile was fixed and was applicate globally. With this new version, we are now introducing and adding a completely new credit system as. Henceforth, the store owners will be able to assign variable percentile for each level of referrers individually, as well.
+
+Store owners can manage levelwise credit percentage globally (Applicable for all products), Category Wise and even product specific. 
+
+This version does not replace the old credit system and that too will be in working status. Apparently, now, we have 2 systems to choose from, Depending upon a subsequent criteria, store owners will now have the choice to choose either from - Level Based Credit System (LCS) or Recursive Credit System (RCS - old one). 
+
+### Manage number of levels.
+
+#### Store owners now can define the number of referrer levels which the referrers would receive the credit points for. 
+
+From the admin panel, store owners can now manage levels and their credit percentage. 
+
+### Social Media Sharing
+
+#### We are happy to be introducing a social media sharing option as well for the referrers. 
+
+Referrers can share predefined banners on social media for increasing their network. 
+
+Visitors who follow or click a socially shared link, will join under the referrers account. The previous version only had an option to invite people to join referral program, only via email. But now, social media sharing is available, apparently opening ones business up to a wider audience.
+
+
+
+[1.4.7] 2018-02-24
+
+### Bug Fix
+
+#### Made compatible with Wordpress 4.9.4 and Woocommerce 3.3.3. The plugin setting page was showing some warnings/errors which are removed from this verison. 
+
+
+
+[1.4.6] 2018-01-20
+
+### Bug Fix
+
+#### Removed validation of referral program fields if the users do not wants to join the referral program.
+
+
+
+[1.4.5] 2018-01-19
+
+### Added Feature
+
+#### Now Users can join referral program from the checkout page if they wants to register on the website. 
+
+### Bug fix
+
+#### If users added wrong referral code then plugins shows the error message but they can not able to change the code to correct it. Now, this bug has been fixed so users can change the wrong referral code. 
+
+
+
+
+
+[1.4.4] 2017-12-18
+
+### Bug fix
+
+#### The exclude product select list issue has been resolved in this version. 
+
+
+
+[1.4.3] 2017-09-11 
+
+### Bug Fix 
+
+#### Made compatible with latest version of WordPress and Woo commerce.
+
+There was an issue where the row action options for Posts and Custom Post Types were not visible after upgrading to the latest version of WordPress, which has been resolved now.
+
+
+
+[1.4.2] 2016-11-21
+
+### Bug fix
+
+#### Removed bug from the list of users in admin panel. 
+
+
+
+[1.4.1] 2016-10-28
+
+### Added
+
+#### My Affiliate Information: 
+
+There is one more mod where we have added a new shortcode "[wmc_show_affiliate_info]" to show affiliate user information in tabular format for customers who are already logged in. 
+
+A customer can see a list of users who have joined their referral program using his/her referral code.
+
+This shortcode can be used anywhere on any given page and post, just as in - [wmc_invite_friends] and [wmc_show_credit_info] shortcodes.
+
+ 
+
+### Added
+
+#### Referral tab in My account page : 
+
+Hello folks.
+
+We have yet another modification here to the Front End.
+
+The Referral Tab is now on the My Account page
+
+This tab has been added to the WooCommerce 'My Account' page.
+
+All plugin related information will be displayed here itself now. Previously this was within the WooCommerce Dashboard.
+
+Following this one can now view entities like the Invitation form, Affiliate information as well as the Credit points information there itself henceforth.
+
+Also, the users can now see all their referral activity inside one separate tab - "Referral".
+
+
+
+[1.4] 2016-10-18
+
+### Added
+
+#### Multilingual Support : We are happy to announce that the WooCommerce Referral Plugin now has gone multilingual and supports French and Italian. 
+
+Currently it supports the above 2 languages only, but the good news is that it can be made available in any given language (non-regional), and you just need to contact us with your preferred language.
+
+To add to the lucidity, If one has some knowledge of the Wordpress Multilingual feat, one can himself make the plugin available in any preferred language. It is that easy.
+
+You just need to reach out to us and we will guide you with few simple steps and you will have the plugin available in the language of your choice.
+
+### Added
+
+#### Welcome Credit Setting : 
+
+Previously, the Welcome credit points were only available for newly registered users.
+
+Now, existing users too will get the benefit of Welcome Credits on their first purchase.
+
+Administrator can choose this option between all users or can restrict it to newly registered users only.
+
+
+
+[1.3] 2016-09-22
+
+### Added
+
+#### Category level Credit point feature has been added. Now, you can set credit point percentage for categories, and so percentage defined for category will be applicable for all the products within that category. 
+
+If the product level percentage is not defined, then, the category level percentage will be applied and if both, the product and the category level percentage is not defined then, global percentage will be applied. In case if the product is having multiple categories then, lowest/highest percentage among all the categories will be applied. You can choose whether lowest or highest should be applied, from the plugin settings.
+
+
+
+[1.2] 2016-09-20
+
+### Added
+
+#### Added two more shortcodes to show "Invite Friend" form and "Credit point details". Now credit point information and invite friend form can be show anywhere on wordpress pages. These shortcodes will show information of users who are logged in.
+
+[wmc_invite_friends] =  this shortcode will show invite friend form.
+
+[wmc_show_credit_info] = this will show logged in user credit point information.
+
+
+
+## [1.2] 2016-09-10
+
+### Added
+
+- Added Auto join feature. Provided "Auto Register" option in admin panel. If user select "Yes" then users willautomatically get registered to referral program, if select "No" then plugin will provide option to join or not to referral program while registration. 
+
+
+
+- Added Product level credit point settings. Now you can add percentage of credit points at product level. If you have added product level percentage then product percentage will be used otherwise global percentage will be used.
+
+
+
+## [1.1] 2016-08-26
+
+### Fixed
+
+- Added security to prevent XSS attacks  
+
+
+
+## [1.1] 2016-08-06
+
+### Fixed
+
+- Fixed activatation bug from the plugin.
+
+
+
+### Changed
+
+- corrected typo mistake.
+
+
+
+### 2019-05-13
+
+File  woo-mult-plugin/classes/referral-users.php
+
+1165 call function user_join_referral_program()
+
+1204 to 1223 function intialize function user_join_referral_program()
+
+385 to 390 added link to referral code fill.
+
+
+
+File  woo-mult-plugin/classes/woocommerce-order.php
+
+210 to 215 call and check function user_join_referral_program()
+
+337 to 341 function intialize function user_join_referral_program()

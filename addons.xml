@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<addons>
+  <addon>
+      <name>The Referral Cashout Add-On</name>
+      <slug>woocommerce-multilevel-commission-payment-add-on</slug>
+      <plugin_link>https://www.prismitworks.com/wordpress-plugin-development-surat/referral-payment-withdrawal-add-on-plugin</plugin_link>
+      <description>With this plugin one can withdraw or encash his/her earned credit points (Accumulated by The WooCommerce Multilevel Referral Affiliate Plugin), by transferring them to their subsequent Paypal Accounts (globally).</description>
+      <price>30$</price>
+      <video_url></video_url>
+      <image_url>payment-withdrawal_addon.png</image_url>
+      <demo_link>https://referral.staging.prismitsystems.com</demo_link>
+  </addon>
+  <addon>
+      <name>The Referral Credits Manager Add-On</name>
+      <slug>woocommerce-multilevel-referral-credits-manager</slug>
+      <plugin_link>https://www.prismitworks.com/wordpress-plugin-development-surat/woocommerce-multilevel-referral-credits-manager-add-on-plugin</plugin_link>
+      <description>With this plugin one can only distribute a fixed percentage of credit points to their customers or can even assign different percentages for different referrers from each different level/s. This add-on will allow store owners to manually manage credit points of referral users registered with their subsequent e-store/s.</description>
+      <price>25$</price>
+      <video_url></video_url>
+      <image_url>referral-credits-manager_addon.png</image_url>
+      <demo_link>https://referral.staging.prismitsystems.com</demo_link>
+  </addon>
+</addons>
